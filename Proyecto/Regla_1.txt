@@ -1,0 +1,768 @@
+¬( PA, F1, Abajo, T1)Y¬(PA,F2,Abajo, T1)Y¬(PA,F3,Abajo, T1)-> [
+¬( PA, F1, Medio, T1)Y¬(PA,F2,Medio, T1)-> ¬[ Y ¬(PA, F1, Arriba,1Y)]¬( PA, F1, Medio, T2)Y¬(PA,F2,Medio, T2)-> ¬[ Y ¬(PA, F1, Arriba,2Y)]¬( PA, F1, Medio, T3)Y¬(PA,F2,Medio, T3)-> ¬[ ]
+
+__________________________________________________
+¬( PA, F1, Abajo, T2)Y¬(PA,F2,Abajo, T2)Y¬(PA,F3,Abajo, T2)-> [
+¬( PA, F1, Medio, T1)Y¬(PA,F2,Medio, T1)-> ¬[ Y ¬(PA, F1, Arriba,1Y)]¬( PA, F1, Medio, T2)Y¬(PA,F2,Medio, T2)-> ¬[ Y ¬(PA, F1, Arriba,2Y)]¬( PA, F1, Medio, T3)Y¬(PA,F2,Medio, T3)-> ¬[ ]
+
+__________________________________________________
+¬( PA, F1, Abajo, T3)Y¬(PA,F2,Abajo, T3)Y¬(PA,F3,Abajo, T3)-> [
+¬( PA, F1, Medio, T1)Y¬(PA,F2,Medio, T1)-> ¬[ Y ¬(PA, F1, Arriba,1Y)]¬( PA, F1, Medio, T2)Y¬(PA,F2,Medio, T2)-> ¬[ Y ¬(PA, F1, Arriba,2Y)]¬( PA, F1, Medio, T3)Y¬(PA,F2,Medio, T3)-> ¬[ ]
+
+__________________________________________________
+¬( PA, F1, Abajo, T4)Y¬(PA,F2,Abajo, T4)Y¬(PA,F3,Abajo, T4)-> [
+¬( PA, F1, Medio, T1)Y¬(PA,F2,Medio, T1)-> ¬[ Y ¬(PA, F1, Arriba,1Y)]¬( PA, F1, Medio, T2)Y¬(PA,F2,Medio, T2)-> ¬[ Y ¬(PA, F1, Arriba,2Y)]¬( PA, F1, Medio, T3)Y¬(PA,F2,Medio, T3)-> ¬[ ]
+
+__________________________________________________
+¬( PA, F1, Abajo, T5)Y¬(PA,F2,Abajo, T5)Y¬(PA,F3,Abajo, T5)-> [
+¬( PA, F1, Medio, T1)Y¬(PA,F2,Medio, T1)-> ¬[ Y ¬(PA, F1, Arriba,1Y)]¬( PA, F1, Medio, T2)Y¬(PA,F2,Medio, T2)-> ¬[ Y ¬(PA, F1, Arriba,2Y)]¬( PA, F1, Medio, T3)Y¬(PA,F2,Medio, T3)-> ¬[ ]
+
+__________________________________________________
+¬( PA, F1, Abajo, T6)Y¬(PA,F2,Abajo, T6)Y¬(PA,F3,Abajo, T6)-> [
+¬( PA, F1, Medio, T1)Y¬(PA,F2,Medio, T1)-> ¬[ Y ¬(PA, F1, Arriba,1Y)]¬( PA, F1, Medio, T2)Y¬(PA,F2,Medio, T2)-> ¬[ Y ¬(PA, F1, Arriba,2Y)]¬( PA, F1, Medio, T3)Y¬(PA,F2,Medio, T3)-> ¬[ ]
+
+__________________________________________________
+¬( PA, F1, Abajo, T7)Y¬(PA,F2,Abajo, T7)Y¬(PA,F3,Abajo, T7)-> [
+¬( PA, F1, Medio, T1)Y¬(PA,F2,Medio, T1)-> ¬[ Y ¬(PA, F1, Arriba,1Y)]¬( PA, F1, Medio, T2)Y¬(PA,F2,Medio, T2)-> ¬[ Y ¬(PA, F1, Arriba,2Y)]¬( PA, F1, Medio, T3)Y¬(PA,F2,Medio, T3)-> ¬[ ]
+
+__________________________________________________
+¬( PA, F1, Abajo, T8)Y¬(PA,F2,Abajo, T8)Y¬(PA,F3,Abajo, T8)-> [
+¬( PA, F1, Medio, T1)Y¬(PA,F2,Medio, T1)-> ¬[ Y ¬(PA, F1, Arriba,1Y)]¬( PA, F1, Medio, T2)Y¬(PA,F2,Medio, T2)-> ¬[ Y ¬(PA, F1, Arriba,2Y)]¬( PA, F1, Medio, T3)Y¬(PA,F2,Medio, T3)-> ¬[ ]
+
+__________________________________________________
+¬( PB, F1, Abajo, T1)Y¬(PB,F2,Abajo, T1)Y¬(PB,F3,Abajo, T1)-> [
+¬( PA, F1, Medio, T1)Y¬(PA,F2,Medio, T1)-> ¬[ Y ¬(PA, F1, Arriba,1Y)]¬( PA, F1, Medio, T2)Y¬(PA,F2,Medio, T2)-> ¬[ Y ¬(PA, F1, Arriba,2Y)]¬( PA, F1, Medio, T3)Y¬(PA,F2,Medio, T3)-> ¬[ ]
+
+__________________________________________________
+¬( PB, F1, Abajo, T2)Y¬(PB,F2,Abajo, T2)Y¬(PB,F3,Abajo, T2)-> [
+¬( PA, F1, Medio, T1)Y¬(PA,F2,Medio, T1)-> ¬[ Y ¬(PA, F1, Arriba,1Y)]¬( PA, F1, Medio, T2)Y¬(PA,F2,Medio, T2)-> ¬[ Y ¬(PA, F1, Arriba,2Y)]¬( PA, F1, Medio, T3)Y¬(PA,F2,Medio, T3)-> ¬[ ]
+
+__________________________________________________
+¬( PB, F1, Abajo, T3)Y¬(PB,F2,Abajo, T3)Y¬(PB,F3,Abajo, T3)-> [
+¬( PA, F1, Medio, T1)Y¬(PA,F2,Medio, T1)-> ¬[ Y ¬(PA, F1, Arriba,1Y)]¬( PA, F1, Medio, T2)Y¬(PA,F2,Medio, T2)-> ¬[ Y ¬(PA, F1, Arriba,2Y)]¬( PA, F1, Medio, T3)Y¬(PA,F2,Medio, T3)-> ¬[ ]
+
+__________________________________________________
+¬( PB, F1, Abajo, T4)Y¬(PB,F2,Abajo, T4)Y¬(PB,F3,Abajo, T4)-> [
+¬( PA, F1, Medio, T1)Y¬(PA,F2,Medio, T1)-> ¬[ Y ¬(PA, F1, Arriba,1Y)]¬( PA, F1, Medio, T2)Y¬(PA,F2,Medio, T2)-> ¬[ Y ¬(PA, F1, Arriba,2Y)]¬( PA, F1, Medio, T3)Y¬(PA,F2,Medio, T3)-> ¬[ ]
+
+__________________________________________________
+¬( PB, F1, Abajo, T5)Y¬(PB,F2,Abajo, T5)Y¬(PB,F3,Abajo, T5)-> [
+¬( PA, F1, Medio, T1)Y¬(PA,F2,Medio, T1)-> ¬[ Y ¬(PA, F1, Arriba,1Y)]¬( PA, F1, Medio, T2)Y¬(PA,F2,Medio, T2)-> ¬[ Y ¬(PA, F1, Arriba,2Y)]¬( PA, F1, Medio, T3)Y¬(PA,F2,Medio, T3)-> ¬[ ]
+
+__________________________________________________
+¬( PB, F1, Abajo, T6)Y¬(PB,F2,Abajo, T6)Y¬(PB,F3,Abajo, T6)-> [
+¬( PA, F1, Medio, T1)Y¬(PA,F2,Medio, T1)-> ¬[ Y ¬(PA, F1, Arriba,1Y)]¬( PA, F1, Medio, T2)Y¬(PA,F2,Medio, T2)-> ¬[ Y ¬(PA, F1, Arriba,2Y)]¬( PA, F1, Medio, T3)Y¬(PA,F2,Medio, T3)-> ¬[ ]
+
+__________________________________________________
+¬( PB, F1, Abajo, T7)Y¬(PB,F2,Abajo, T7)Y¬(PB,F3,Abajo, T7)-> [
+¬( PA, F1, Medio, T1)Y¬(PA,F2,Medio, T1)-> ¬[ Y ¬(PA, F1, Arriba,1Y)]¬( PA, F1, Medio, T2)Y¬(PA,F2,Medio, T2)-> ¬[ Y ¬(PA, F1, Arriba,2Y)]¬( PA, F1, Medio, T3)Y¬(PA,F2,Medio, T3)-> ¬[ ]
+
+__________________________________________________
+¬( PB, F1, Abajo, T8)Y¬(PB,F2,Abajo, T8)Y¬(PB,F3,Abajo, T8)-> [
+¬( PA, F1, Medio, T1)Y¬(PA,F2,Medio, T1)-> ¬[ Y ¬(PA, F1, Arriba,1Y)]¬( PA, F1, Medio, T2)Y¬(PA,F2,Medio, T2)-> ¬[ Y ¬(PA, F1, Arriba,2Y)]¬( PA, F1, Medio, T3)Y¬(PA,F2,Medio, T3)-> ¬[ ]
+
+__________________________________________________
+¬( PC, F1, Abajo, T1)Y¬(PC,F2,Abajo, T1)Y¬(PC,F3,Abajo, T1)-> [
+¬( PA, F1, Medio, T1)Y¬(PA,F2,Medio, T1)-> ¬[ Y ¬(PA, F1, Arriba,1Y)]¬( PA, F1, Medio, T2)Y¬(PA,F2,Medio, T2)-> ¬[ Y ¬(PA, F1, Arriba,2Y)]¬( PA, F1, Medio, T3)Y¬(PA,F2,Medio, T3)-> ¬[ ]
+
+__________________________________________________
+¬( PC, F1, Abajo, T2)Y¬(PC,F2,Abajo, T2)Y¬(PC,F3,Abajo, T2)-> [
+¬( PA, F1, Medio, T1)Y¬(PA,F2,Medio, T1)-> ¬[ Y ¬(PA, F1, Arriba,1Y)]¬( PA, F1, Medio, T2)Y¬(PA,F2,Medio, T2)-> ¬[ Y ¬(PA, F1, Arriba,2Y)]¬( PA, F1, Medio, T3)Y¬(PA,F2,Medio, T3)-> ¬[ ]
+
+__________________________________________________
+¬( PC, F1, Abajo, T3)Y¬(PC,F2,Abajo, T3)Y¬(PC,F3,Abajo, T3)-> [
+¬( PA, F1, Medio, T1)Y¬(PA,F2,Medio, T1)-> ¬[ Y ¬(PA, F1, Arriba,1Y)]¬( PA, F1, Medio, T2)Y¬(PA,F2,Medio, T2)-> ¬[ Y ¬(PA, F1, Arriba,2Y)]¬( PA, F1, Medio, T3)Y¬(PA,F2,Medio, T3)-> ¬[ ]
+
+__________________________________________________
+¬( PC, F1, Abajo, T4)Y¬(PC,F2,Abajo, T4)Y¬(PC,F3,Abajo, T4)-> [
+¬( PA, F1, Medio, T1)Y¬(PA,F2,Medio, T1)-> ¬[ Y ¬(PA, F1, Arriba,1Y)]¬( PA, F1, Medio, T2)Y¬(PA,F2,Medio, T2)-> ¬[ Y ¬(PA, F1, Arriba,2Y)]¬( PA, F1, Medio, T3)Y¬(PA,F2,Medio, T3)-> ¬[ ]
+
+__________________________________________________
+¬( PC, F1, Abajo, T5)Y¬(PC,F2,Abajo, T5)Y¬(PC,F3,Abajo, T5)-> [
+¬( PA, F1, Medio, T1)Y¬(PA,F2,Medio, T1)-> ¬[ Y ¬(PA, F1, Arriba,1Y)]¬( PA, F1, Medio, T2)Y¬(PA,F2,Medio, T2)-> ¬[ Y ¬(PA, F1, Arriba,2Y)]¬( PA, F1, Medio, T3)Y¬(PA,F2,Medio, T3)-> ¬[ ]
+
+__________________________________________________
+¬( PC, F1, Abajo, T6)Y¬(PC,F2,Abajo, T6)Y¬(PC,F3,Abajo, T6)-> [
+¬( PA, F1, Medio, T1)Y¬(PA,F2,Medio, T1)-> ¬[ Y ¬(PA, F1, Arriba,1Y)]¬( PA, F1, Medio, T2)Y¬(PA,F2,Medio, T2)-> ¬[ Y ¬(PA, F1, Arriba,2Y)]¬( PA, F1, Medio, T3)Y¬(PA,F2,Medio, T3)-> ¬[ ]
+
+__________________________________________________
+¬( PC, F1, Abajo, T7)Y¬(PC,F2,Abajo, T7)Y¬(PC,F3,Abajo, T7)-> [
+¬( PA, F1, Medio, T1)Y¬(PA,F2,Medio, T1)-> ¬[ Y ¬(PA, F1, Arriba,1Y)]¬( PA, F1, Medio, T2)Y¬(PA,F2,Medio, T2)-> ¬[ Y ¬(PA, F1, Arriba,2Y)]¬( PA, F1, Medio, T3)Y¬(PA,F2,Medio, T3)-> ¬[ ]
+
+__________________________________________________
+¬( PC, F1, Abajo, T8)Y¬(PC,F2,Abajo, T8)Y¬(PC,F3,Abajo, T8)-> [
+¬( PA, F1, Medio, T1)Y¬(PA,F2,Medio, T1)-> ¬[ Y ¬(PA, F1, Arriba,1Y)]¬( PA, F1, Medio, T2)Y¬(PA,F2,Medio, T2)-> ¬[ Y ¬(PA, F1, Arriba,2Y)]¬( PA, F1, Medio, T3)Y¬(PA,F2,Medio, T3)-> ¬[ ]
+
+__________________________________________________
+¬( PA, F1, Abajo, T1)Y¬(PA,F2,Abajo, T1)Y¬(PA,F3,Abajo, T1)-> [
+¬( PA, F1, Medio, T1)Y¬(PA,F2,Medio, T1)-> ¬[ Y ¬(PA, F1, Arriba,1Y)]¬( PA, F1, Medio, T2)Y¬(PA,F2,Medio, T2)-> ¬[ Y ¬(PA, F1, Arriba,2Y)]¬( PA, F1, Medio, T3)Y¬(PA,F2,Medio, T3)-> ¬[ ]
+
+__________________________________________________
+¬( PA, F1, Abajo, T2)Y¬(PA,F2,Abajo, T2)Y¬(PA,F3,Abajo, T2)-> [
+¬( PA, F1, Medio, T1)Y¬(PA,F2,Medio, T1)-> ¬[ Y ¬(PA, F1, Arriba,1Y)]¬( PA, F1, Medio, T2)Y¬(PA,F2,Medio, T2)-> ¬[ Y ¬(PA, F1, Arriba,2Y)]¬( PA, F1, Medio, T3)Y¬(PA,F2,Medio, T3)-> ¬[ ]
+
+__________________________________________________
+¬( PA, F1, Abajo, T3)Y¬(PA,F2,Abajo, T3)Y¬(PA,F3,Abajo, T3)-> [
+¬( PA, F1, Medio, T1)Y¬(PA,F2,Medio, T1)-> ¬[ Y ¬(PA, F1, Arriba,1Y)]¬( PA, F1, Medio, T2)Y¬(PA,F2,Medio, T2)-> ¬[ Y ¬(PA, F1, Arriba,2Y)]¬( PA, F1, Medio, T3)Y¬(PA,F2,Medio, T3)-> ¬[ ]
+
+__________________________________________________
+¬( PA, F1, Abajo, T4)Y¬(PA,F2,Abajo, T4)Y¬(PA,F3,Abajo, T4)-> [
+¬( PA, F1, Medio, T1)Y¬(PA,F2,Medio, T1)-> ¬[ Y ¬(PA, F1, Arriba,1Y)]¬( PA, F1, Medio, T2)Y¬(PA,F2,Medio, T2)-> ¬[ Y ¬(PA, F1, Arriba,2Y)]¬( PA, F1, Medio, T3)Y¬(PA,F2,Medio, T3)-> ¬[ ]
+
+__________________________________________________
+¬( PA, F1, Abajo, T5)Y¬(PA,F2,Abajo, T5)Y¬(PA,F3,Abajo, T5)-> [
+¬( PA, F1, Medio, T1)Y¬(PA,F2,Medio, T1)-> ¬[ Y ¬(PA, F1, Arriba,1Y)]¬( PA, F1, Medio, T2)Y¬(PA,F2,Medio, T2)-> ¬[ Y ¬(PA, F1, Arriba,2Y)]¬( PA, F1, Medio, T3)Y¬(PA,F2,Medio, T3)-> ¬[ ]
+
+__________________________________________________
+¬( PA, F1, Abajo, T6)Y¬(PA,F2,Abajo, T6)Y¬(PA,F3,Abajo, T6)-> [
+¬( PA, F1, Medio, T1)Y¬(PA,F2,Medio, T1)-> ¬[ Y ¬(PA, F1, Arriba,1Y)]¬( PA, F1, Medio, T2)Y¬(PA,F2,Medio, T2)-> ¬[ Y ¬(PA, F1, Arriba,2Y)]¬( PA, F1, Medio, T3)Y¬(PA,F2,Medio, T3)-> ¬[ ]
+
+__________________________________________________
+¬( PA, F1, Abajo, T7)Y¬(PA,F2,Abajo, T7)Y¬(PA,F3,Abajo, T7)-> [
+¬( PA, F1, Medio, T1)Y¬(PA,F2,Medio, T1)-> ¬[ Y ¬(PA, F1, Arriba,1Y)]¬( PA, F1, Medio, T2)Y¬(PA,F2,Medio, T2)-> ¬[ Y ¬(PA, F1, Arriba,2Y)]¬( PA, F1, Medio, T3)Y¬(PA,F2,Medio, T3)-> ¬[ ]
+
+__________________________________________________
+¬( PA, F1, Abajo, T8)Y¬(PA,F2,Abajo, T8)Y¬(PA,F3,Abajo, T8)-> [
+¬( PA, F1, Medio, T1)Y¬(PA,F2,Medio, T1)-> ¬[ Y ¬(PA, F1, Arriba,1Y)]¬( PA, F1, Medio, T2)Y¬(PA,F2,Medio, T2)-> ¬[ Y ¬(PA, F1, Arriba,2Y)]¬( PA, F1, Medio, T3)Y¬(PA,F2,Medio, T3)-> ¬[ ]
+
+__________________________________________________
+¬( PB, F1, Abajo, T1)Y¬(PB,F2,Abajo, T1)Y¬(PB,F3,Abajo, T1)-> [
+¬( PA, F1, Medio, T1)Y¬(PA,F2,Medio, T1)-> ¬[ Y ¬(PA, F1, Arriba,1Y)]¬( PA, F1, Medio, T2)Y¬(PA,F2,Medio, T2)-> ¬[ Y ¬(PA, F1, Arriba,2Y)]¬( PA, F1, Medio, T3)Y¬(PA,F2,Medio, T3)-> ¬[ ]
+
+__________________________________________________
+¬( PB, F1, Abajo, T2)Y¬(PB,F2,Abajo, T2)Y¬(PB,F3,Abajo, T2)-> [
+¬( PA, F1, Medio, T1)Y¬(PA,F2,Medio, T1)-> ¬[ Y ¬(PA, F1, Arriba,1Y)]¬( PA, F1, Medio, T2)Y¬(PA,F2,Medio, T2)-> ¬[ Y ¬(PA, F1, Arriba,2Y)]¬( PA, F1, Medio, T3)Y¬(PA,F2,Medio, T3)-> ¬[ ]
+
+__________________________________________________
+¬( PB, F1, Abajo, T3)Y¬(PB,F2,Abajo, T3)Y¬(PB,F3,Abajo, T3)-> [
+¬( PA, F1, Medio, T1)Y¬(PA,F2,Medio, T1)-> ¬[ Y ¬(PA, F1, Arriba,1Y)]¬( PA, F1, Medio, T2)Y¬(PA,F2,Medio, T2)-> ¬[ Y ¬(PA, F1, Arriba,2Y)]¬( PA, F1, Medio, T3)Y¬(PA,F2,Medio, T3)-> ¬[ ]
+
+__________________________________________________
+¬( PB, F1, Abajo, T4)Y¬(PB,F2,Abajo, T4)Y¬(PB,F3,Abajo, T4)-> [
+¬( PA, F1, Medio, T1)Y¬(PA,F2,Medio, T1)-> ¬[ Y ¬(PA, F1, Arriba,1Y)]¬( PA, F1, Medio, T2)Y¬(PA,F2,Medio, T2)-> ¬[ Y ¬(PA, F1, Arriba,2Y)]¬( PA, F1, Medio, T3)Y¬(PA,F2,Medio, T3)-> ¬[ ]
+
+__________________________________________________
+¬( PB, F1, Abajo, T5)Y¬(PB,F2,Abajo, T5)Y¬(PB,F3,Abajo, T5)-> [
+¬( PA, F1, Medio, T1)Y¬(PA,F2,Medio, T1)-> ¬[ Y ¬(PA, F1, Arriba,1Y)]¬( PA, F1, Medio, T2)Y¬(PA,F2,Medio, T2)-> ¬[ Y ¬(PA, F1, Arriba,2Y)]¬( PA, F1, Medio, T3)Y¬(PA,F2,Medio, T3)-> ¬[ ]
+
+__________________________________________________
+¬( PB, F1, Abajo, T6)Y¬(PB,F2,Abajo, T6)Y¬(PB,F3,Abajo, T6)-> [
+¬( PA, F1, Medio, T1)Y¬(PA,F2,Medio, T1)-> ¬[ Y ¬(PA, F1, Arriba,1Y)]¬( PA, F1, Medio, T2)Y¬(PA,F2,Medio, T2)-> ¬[ Y ¬(PA, F1, Arriba,2Y)]¬( PA, F1, Medio, T3)Y¬(PA,F2,Medio, T3)-> ¬[ ]
+
+__________________________________________________
+¬( PB, F1, Abajo, T7)Y¬(PB,F2,Abajo, T7)Y¬(PB,F3,Abajo, T7)-> [
+¬( PA, F1, Medio, T1)Y¬(PA,F2,Medio, T1)-> ¬[ Y ¬(PA, F1, Arriba,1Y)]¬( PA, F1, Medio, T2)Y¬(PA,F2,Medio, T2)-> ¬[ Y ¬(PA, F1, Arriba,2Y)]¬( PA, F1, Medio, T3)Y¬(PA,F2,Medio, T3)-> ¬[ ]
+
+__________________________________________________
+¬( PB, F1, Abajo, T8)Y¬(PB,F2,Abajo, T8)Y¬(PB,F3,Abajo, T8)-> [
+¬( PA, F1, Medio, T1)Y¬(PA,F2,Medio, T1)-> ¬[ Y ¬(PA, F1, Arriba,1Y)]¬( PA, F1, Medio, T2)Y¬(PA,F2,Medio, T2)-> ¬[ Y ¬(PA, F1, Arriba,2Y)]¬( PA, F1, Medio, T3)Y¬(PA,F2,Medio, T3)-> ¬[ ]
+
+__________________________________________________
+¬( PC, F1, Abajo, T1)Y¬(PC,F2,Abajo, T1)Y¬(PC,F3,Abajo, T1)-> [
+¬( PA, F1, Medio, T1)Y¬(PA,F2,Medio, T1)-> ¬[ Y ¬(PA, F1, Arriba,1Y)]¬( PA, F1, Medio, T2)Y¬(PA,F2,Medio, T2)-> ¬[ Y ¬(PA, F1, Arriba,2Y)]¬( PA, F1, Medio, T3)Y¬(PA,F2,Medio, T3)-> ¬[ ]
+
+__________________________________________________
+¬( PC, F1, Abajo, T2)Y¬(PC,F2,Abajo, T2)Y¬(PC,F3,Abajo, T2)-> [
+¬( PA, F1, Medio, T1)Y¬(PA,F2,Medio, T1)-> ¬[ Y ¬(PA, F1, Arriba,1Y)]¬( PA, F1, Medio, T2)Y¬(PA,F2,Medio, T2)-> ¬[ Y ¬(PA, F1, Arriba,2Y)]¬( PA, F1, Medio, T3)Y¬(PA,F2,Medio, T3)-> ¬[ ]
+
+__________________________________________________
+¬( PC, F1, Abajo, T3)Y¬(PC,F2,Abajo, T3)Y¬(PC,F3,Abajo, T3)-> [
+¬( PA, F1, Medio, T1)Y¬(PA,F2,Medio, T1)-> ¬[ Y ¬(PA, F1, Arriba,1Y)]¬( PA, F1, Medio, T2)Y¬(PA,F2,Medio, T2)-> ¬[ Y ¬(PA, F1, Arriba,2Y)]¬( PA, F1, Medio, T3)Y¬(PA,F2,Medio, T3)-> ¬[ ]
+
+__________________________________________________
+¬( PC, F1, Abajo, T4)Y¬(PC,F2,Abajo, T4)Y¬(PC,F3,Abajo, T4)-> [
+¬( PA, F1, Medio, T1)Y¬(PA,F2,Medio, T1)-> ¬[ Y ¬(PA, F1, Arriba,1Y)]¬( PA, F1, Medio, T2)Y¬(PA,F2,Medio, T2)-> ¬[ Y ¬(PA, F1, Arriba,2Y)]¬( PA, F1, Medio, T3)Y¬(PA,F2,Medio, T3)-> ¬[ ]
+
+__________________________________________________
+¬( PC, F1, Abajo, T5)Y¬(PC,F2,Abajo, T5)Y¬(PC,F3,Abajo, T5)-> [
+¬( PA, F1, Medio, T1)Y¬(PA,F2,Medio, T1)-> ¬[ Y ¬(PA, F1, Arriba,1Y)]¬( PA, F1, Medio, T2)Y¬(PA,F2,Medio, T2)-> ¬[ Y ¬(PA, F1, Arriba,2Y)]¬( PA, F1, Medio, T3)Y¬(PA,F2,Medio, T3)-> ¬[ ]
+
+__________________________________________________
+¬( PC, F1, Abajo, T6)Y¬(PC,F2,Abajo, T6)Y¬(PC,F3,Abajo, T6)-> [
+¬( PA, F1, Medio, T1)Y¬(PA,F2,Medio, T1)-> ¬[ Y ¬(PA, F1, Arriba,1Y)]¬( PA, F1, Medio, T2)Y¬(PA,F2,Medio, T2)-> ¬[ Y ¬(PA, F1, Arriba,2Y)]¬( PA, F1, Medio, T3)Y¬(PA,F2,Medio, T3)-> ¬[ ]
+
+__________________________________________________
+¬( PC, F1, Abajo, T7)Y¬(PC,F2,Abajo, T7)Y¬(PC,F3,Abajo, T7)-> [
+¬( PA, F1, Medio, T1)Y¬(PA,F2,Medio, T1)-> ¬[ Y ¬(PA, F1, Arriba,1Y)]¬( PA, F1, Medio, T2)Y¬(PA,F2,Medio, T2)-> ¬[ Y ¬(PA, F1, Arriba,2Y)]¬( PA, F1, Medio, T3)Y¬(PA,F2,Medio, T3)-> ¬[ ]
+
+__________________________________________________
+¬( PC, F1, Abajo, T8)Y¬(PC,F2,Abajo, T8)Y¬(PC,F3,Abajo, T8)-> [
+¬( PA, F1, Medio, T1)Y¬(PA,F2,Medio, T1)-> ¬[ Y ¬(PA, F1, Arriba,1Y)]¬( PA, F1, Medio, T2)Y¬(PA,F2,Medio, T2)-> ¬[ Y ¬(PA, F1, Arriba,2Y)]¬( PA, F1, Medio, T3)Y¬(PA,F2,Medio, T3)-> ¬[ ]
+
+__________________________________________________
+¬( PA, F1, Abajo, T1)Y¬(PA,F2,Abajo, T1)Y¬(PA,F3,Abajo, T1)-> [
+¬( PA, F1, Medio, T1)Y¬(PA,F2,Medio, T1)-> ¬[ Y ¬(PA, F1, Arriba,1Y)]¬( PA, F1, Medio, T2)Y¬(PA,F2,Medio, T2)-> ¬[ Y ¬(PA, F1, Arriba,2Y)]¬( PA, F1, Medio, T3)Y¬(PA,F2,Medio, T3)-> ¬[ ]
+
+__________________________________________________
+¬( PA, F1, Abajo, T2)Y¬(PA,F2,Abajo, T2)Y¬(PA,F3,Abajo, T2)-> [
+¬( PA, F1, Medio, T1)Y¬(PA,F2,Medio, T1)-> ¬[ Y ¬(PA, F1, Arriba,1Y)]¬( PA, F1, Medio, T2)Y¬(PA,F2,Medio, T2)-> ¬[ Y ¬(PA, F1, Arriba,2Y)]¬( PA, F1, Medio, T3)Y¬(PA,F2,Medio, T3)-> ¬[ ]
+
+__________________________________________________
+¬( PA, F1, Abajo, T3)Y¬(PA,F2,Abajo, T3)Y¬(PA,F3,Abajo, T3)-> [
+¬( PA, F1, Medio, T1)Y¬(PA,F2,Medio, T1)-> ¬[ Y ¬(PA, F1, Arriba,1Y)]¬( PA, F1, Medio, T2)Y¬(PA,F2,Medio, T2)-> ¬[ Y ¬(PA, F1, Arriba,2Y)]¬( PA, F1, Medio, T3)Y¬(PA,F2,Medio, T3)-> ¬[ ]
+
+__________________________________________________
+¬( PA, F1, Abajo, T4)Y¬(PA,F2,Abajo, T4)Y¬(PA,F3,Abajo, T4)-> [
+¬( PA, F1, Medio, T1)Y¬(PA,F2,Medio, T1)-> ¬[ Y ¬(PA, F1, Arriba,1Y)]¬( PA, F1, Medio, T2)Y¬(PA,F2,Medio, T2)-> ¬[ Y ¬(PA, F1, Arriba,2Y)]¬( PA, F1, Medio, T3)Y¬(PA,F2,Medio, T3)-> ¬[ ]
+
+__________________________________________________
+¬( PA, F1, Abajo, T5)Y¬(PA,F2,Abajo, T5)Y¬(PA,F3,Abajo, T5)-> [
+¬( PA, F1, Medio, T1)Y¬(PA,F2,Medio, T1)-> ¬[ Y ¬(PA, F1, Arriba,1Y)]¬( PA, F1, Medio, T2)Y¬(PA,F2,Medio, T2)-> ¬[ Y ¬(PA, F1, Arriba,2Y)]¬( PA, F1, Medio, T3)Y¬(PA,F2,Medio, T3)-> ¬[ ]
+
+__________________________________________________
+¬( PA, F1, Abajo, T6)Y¬(PA,F2,Abajo, T6)Y¬(PA,F3,Abajo, T6)-> [
+¬( PA, F1, Medio, T1)Y¬(PA,F2,Medio, T1)-> ¬[ Y ¬(PA, F1, Arriba,1Y)]¬( PA, F1, Medio, T2)Y¬(PA,F2,Medio, T2)-> ¬[ Y ¬(PA, F1, Arriba,2Y)]¬( PA, F1, Medio, T3)Y¬(PA,F2,Medio, T3)-> ¬[ ]
+
+__________________________________________________
+¬( PA, F1, Abajo, T7)Y¬(PA,F2,Abajo, T7)Y¬(PA,F3,Abajo, T7)-> [
+¬( PA, F1, Medio, T1)Y¬(PA,F2,Medio, T1)-> ¬[ Y ¬(PA, F1, Arriba,1Y)]¬( PA, F1, Medio, T2)Y¬(PA,F2,Medio, T2)-> ¬[ Y ¬(PA, F1, Arriba,2Y)]¬( PA, F1, Medio, T3)Y¬(PA,F2,Medio, T3)-> ¬[ ]
+
+__________________________________________________
+¬( PA, F1, Abajo, T8)Y¬(PA,F2,Abajo, T8)Y¬(PA,F3,Abajo, T8)-> [
+¬( PA, F1, Medio, T1)Y¬(PA,F2,Medio, T1)-> ¬[ Y ¬(PA, F1, Arriba,1Y)]¬( PA, F1, Medio, T2)Y¬(PA,F2,Medio, T2)-> ¬[ Y ¬(PA, F1, Arriba,2Y)]¬( PA, F1, Medio, T3)Y¬(PA,F2,Medio, T3)-> ¬[ ]
+
+__________________________________________________
+¬( PB, F1, Abajo, T1)Y¬(PB,F2,Abajo, T1)Y¬(PB,F3,Abajo, T1)-> [
+¬( PA, F1, Medio, T1)Y¬(PA,F2,Medio, T1)-> ¬[ Y ¬(PA, F1, Arriba,1Y)]¬( PA, F1, Medio, T2)Y¬(PA,F2,Medio, T2)-> ¬[ Y ¬(PA, F1, Arriba,2Y)]¬( PA, F1, Medio, T3)Y¬(PA,F2,Medio, T3)-> ¬[ ]
+
+__________________________________________________
+¬( PB, F1, Abajo, T2)Y¬(PB,F2,Abajo, T2)Y¬(PB,F3,Abajo, T2)-> [
+¬( PA, F1, Medio, T1)Y¬(PA,F2,Medio, T1)-> ¬[ Y ¬(PA, F1, Arriba,1Y)]¬( PA, F1, Medio, T2)Y¬(PA,F2,Medio, T2)-> ¬[ Y ¬(PA, F1, Arriba,2Y)]¬( PA, F1, Medio, T3)Y¬(PA,F2,Medio, T3)-> ¬[ ]
+
+__________________________________________________
+¬( PB, F1, Abajo, T3)Y¬(PB,F2,Abajo, T3)Y¬(PB,F3,Abajo, T3)-> [
+¬( PA, F1, Medio, T1)Y¬(PA,F2,Medio, T1)-> ¬[ Y ¬(PA, F1, Arriba,1Y)]¬( PA, F1, Medio, T2)Y¬(PA,F2,Medio, T2)-> ¬[ Y ¬(PA, F1, Arriba,2Y)]¬( PA, F1, Medio, T3)Y¬(PA,F2,Medio, T3)-> ¬[ ]
+
+__________________________________________________
+¬( PB, F1, Abajo, T4)Y¬(PB,F2,Abajo, T4)Y¬(PB,F3,Abajo, T4)-> [
+¬( PA, F1, Medio, T1)Y¬(PA,F2,Medio, T1)-> ¬[ Y ¬(PA, F1, Arriba,1Y)]¬( PA, F1, Medio, T2)Y¬(PA,F2,Medio, T2)-> ¬[ Y ¬(PA, F1, Arriba,2Y)]¬( PA, F1, Medio, T3)Y¬(PA,F2,Medio, T3)-> ¬[ ]
+
+__________________________________________________
+¬( PB, F1, Abajo, T5)Y¬(PB,F2,Abajo, T5)Y¬(PB,F3,Abajo, T5)-> [
+¬( PA, F1, Medio, T1)Y¬(PA,F2,Medio, T1)-> ¬[ Y ¬(PA, F1, Arriba,1Y)]¬( PA, F1, Medio, T2)Y¬(PA,F2,Medio, T2)-> ¬[ Y ¬(PA, F1, Arriba,2Y)]¬( PA, F1, Medio, T3)Y¬(PA,F2,Medio, T3)-> ¬[ ]
+
+__________________________________________________
+¬( PB, F1, Abajo, T6)Y¬(PB,F2,Abajo, T6)Y¬(PB,F3,Abajo, T6)-> [
+¬( PA, F1, Medio, T1)Y¬(PA,F2,Medio, T1)-> ¬[ Y ¬(PA, F1, Arriba,1Y)]¬( PA, F1, Medio, T2)Y¬(PA,F2,Medio, T2)-> ¬[ Y ¬(PA, F1, Arriba,2Y)]¬( PA, F1, Medio, T3)Y¬(PA,F2,Medio, T3)-> ¬[ ]
+
+__________________________________________________
+¬( PB, F1, Abajo, T7)Y¬(PB,F2,Abajo, T7)Y¬(PB,F3,Abajo, T7)-> [
+¬( PA, F1, Medio, T1)Y¬(PA,F2,Medio, T1)-> ¬[ Y ¬(PA, F1, Arriba,1Y)]¬( PA, F1, Medio, T2)Y¬(PA,F2,Medio, T2)-> ¬[ Y ¬(PA, F1, Arriba,2Y)]¬( PA, F1, Medio, T3)Y¬(PA,F2,Medio, T3)-> ¬[ ]
+
+__________________________________________________
+¬( PB, F1, Abajo, T8)Y¬(PB,F2,Abajo, T8)Y¬(PB,F3,Abajo, T8)-> [
+¬( PA, F1, Medio, T1)Y¬(PA,F2,Medio, T1)-> ¬[ Y ¬(PA, F1, Arriba,1Y)]¬( PA, F1, Medio, T2)Y¬(PA,F2,Medio, T2)-> ¬[ Y ¬(PA, F1, Arriba,2Y)]¬( PA, F1, Medio, T3)Y¬(PA,F2,Medio, T3)-> ¬[ ]
+
+__________________________________________________
+¬( PC, F1, Abajo, T1)Y¬(PC,F2,Abajo, T1)Y¬(PC,F3,Abajo, T1)-> [
+¬( PA, F1, Medio, T1)Y¬(PA,F2,Medio, T1)-> ¬[ Y ¬(PA, F1, Arriba,1Y)]¬( PA, F1, Medio, T2)Y¬(PA,F2,Medio, T2)-> ¬[ Y ¬(PA, F1, Arriba,2Y)]¬( PA, F1, Medio, T3)Y¬(PA,F2,Medio, T3)-> ¬[ ]
+
+__________________________________________________
+¬( PC, F1, Abajo, T2)Y¬(PC,F2,Abajo, T2)Y¬(PC,F3,Abajo, T2)-> [
+¬( PA, F1, Medio, T1)Y¬(PA,F2,Medio, T1)-> ¬[ Y ¬(PA, F1, Arriba,1Y)]¬( PA, F1, Medio, T2)Y¬(PA,F2,Medio, T2)-> ¬[ Y ¬(PA, F1, Arriba,2Y)]¬( PA, F1, Medio, T3)Y¬(PA,F2,Medio, T3)-> ¬[ ]
+
+__________________________________________________
+¬( PC, F1, Abajo, T3)Y¬(PC,F2,Abajo, T3)Y¬(PC,F3,Abajo, T3)-> [
+¬( PA, F1, Medio, T1)Y¬(PA,F2,Medio, T1)-> ¬[ Y ¬(PA, F1, Arriba,1Y)]¬( PA, F1, Medio, T2)Y¬(PA,F2,Medio, T2)-> ¬[ Y ¬(PA, F1, Arriba,2Y)]¬( PA, F1, Medio, T3)Y¬(PA,F2,Medio, T3)-> ¬[ ]
+
+__________________________________________________
+¬( PC, F1, Abajo, T4)Y¬(PC,F2,Abajo, T4)Y¬(PC,F3,Abajo, T4)-> [
+¬( PA, F1, Medio, T1)Y¬(PA,F2,Medio, T1)-> ¬[ Y ¬(PA, F1, Arriba,1Y)]¬( PA, F1, Medio, T2)Y¬(PA,F2,Medio, T2)-> ¬[ Y ¬(PA, F1, Arriba,2Y)]¬( PA, F1, Medio, T3)Y¬(PA,F2,Medio, T3)-> ¬[ ]
+
+__________________________________________________
+¬( PC, F1, Abajo, T5)Y¬(PC,F2,Abajo, T5)Y¬(PC,F3,Abajo, T5)-> [
+¬( PA, F1, Medio, T1)Y¬(PA,F2,Medio, T1)-> ¬[ Y ¬(PA, F1, Arriba,1Y)]¬( PA, F1, Medio, T2)Y¬(PA,F2,Medio, T2)-> ¬[ Y ¬(PA, F1, Arriba,2Y)]¬( PA, F1, Medio, T3)Y¬(PA,F2,Medio, T3)-> ¬[ ]
+
+__________________________________________________
+¬( PC, F1, Abajo, T6)Y¬(PC,F2,Abajo, T6)Y¬(PC,F3,Abajo, T6)-> [
+¬( PA, F1, Medio, T1)Y¬(PA,F2,Medio, T1)-> ¬[ Y ¬(PA, F1, Arriba,1Y)]¬( PA, F1, Medio, T2)Y¬(PA,F2,Medio, T2)-> ¬[ Y ¬(PA, F1, Arriba,2Y)]¬( PA, F1, Medio, T3)Y¬(PA,F2,Medio, T3)-> ¬[ ]
+
+__________________________________________________
+¬( PC, F1, Abajo, T7)Y¬(PC,F2,Abajo, T7)Y¬(PC,F3,Abajo, T7)-> [
+¬( PA, F1, Medio, T1)Y¬(PA,F2,Medio, T1)-> ¬[ Y ¬(PA, F1, Arriba,1Y)]¬( PA, F1, Medio, T2)Y¬(PA,F2,Medio, T2)-> ¬[ Y ¬(PA, F1, Arriba,2Y)]¬( PA, F1, Medio, T3)Y¬(PA,F2,Medio, T3)-> ¬[ ]
+
+__________________________________________________
+¬( PC, F1, Abajo, T8)Y¬(PC,F2,Abajo, T8)Y¬(PC,F3,Abajo, T8)-> [
+¬( PA, F1, Medio, T1)Y¬(PA,F2,Medio, T1)-> ¬[ Y ¬(PA, F1, Arriba,1Y)]¬( PA, F1, Medio, T2)Y¬(PA,F2,Medio, T2)-> ¬[ Y ¬(PA, F1, Arriba,2Y)]¬( PA, F1, Medio, T3)Y¬(PA,F2,Medio, T3)-> ¬[ ]
+
+__________________________________________________
+¬( PA, F1, Abajo, T1)Y¬(PA,F2,Abajo, T1)Y¬(PA,F3,Abajo, T1)-> [
+¬( PA, F1, Medio, T1)Y¬(PA,F2,Medio, T1)-> ¬[ Y ¬(PA, F1, Arriba,1Y)]¬( PA, F1, Medio, T2)Y¬(PA,F2,Medio, T2)-> ¬[ Y ¬(PA, F1, Arriba,2Y)]¬( PA, F1, Medio, T3)Y¬(PA,F2,Medio, T3)-> ¬[ ]
+
+__________________________________________________
+¬( PA, F1, Abajo, T2)Y¬(PA,F2,Abajo, T2)Y¬(PA,F3,Abajo, T2)-> [
+¬( PA, F1, Medio, T1)Y¬(PA,F2,Medio, T1)-> ¬[ Y ¬(PA, F1, Arriba,1Y)]¬( PA, F1, Medio, T2)Y¬(PA,F2,Medio, T2)-> ¬[ Y ¬(PA, F1, Arriba,2Y)]¬( PA, F1, Medio, T3)Y¬(PA,F2,Medio, T3)-> ¬[ ]
+
+__________________________________________________
+¬( PA, F1, Abajo, T3)Y¬(PA,F2,Abajo, T3)Y¬(PA,F3,Abajo, T3)-> [
+¬( PA, F1, Medio, T1)Y¬(PA,F2,Medio, T1)-> ¬[ Y ¬(PA, F1, Arriba,1Y)]¬( PA, F1, Medio, T2)Y¬(PA,F2,Medio, T2)-> ¬[ Y ¬(PA, F1, Arriba,2Y)]¬( PA, F1, Medio, T3)Y¬(PA,F2,Medio, T3)-> ¬[ ]
+
+__________________________________________________
+¬( PA, F1, Abajo, T4)Y¬(PA,F2,Abajo, T4)Y¬(PA,F3,Abajo, T4)-> [
+¬( PA, F1, Medio, T1)Y¬(PA,F2,Medio, T1)-> ¬[ Y ¬(PA, F1, Arriba,1Y)]¬( PA, F1, Medio, T2)Y¬(PA,F2,Medio, T2)-> ¬[ Y ¬(PA, F1, Arriba,2Y)]¬( PA, F1, Medio, T3)Y¬(PA,F2,Medio, T3)-> ¬[ ]
+
+__________________________________________________
+¬( PA, F1, Abajo, T5)Y¬(PA,F2,Abajo, T5)Y¬(PA,F3,Abajo, T5)-> [
+¬( PA, F1, Medio, T1)Y¬(PA,F2,Medio, T1)-> ¬[ Y ¬(PA, F1, Arriba,1Y)]¬( PA, F1, Medio, T2)Y¬(PA,F2,Medio, T2)-> ¬[ Y ¬(PA, F1, Arriba,2Y)]¬( PA, F1, Medio, T3)Y¬(PA,F2,Medio, T3)-> ¬[ ]
+
+__________________________________________________
+¬( PA, F1, Abajo, T6)Y¬(PA,F2,Abajo, T6)Y¬(PA,F3,Abajo, T6)-> [
+¬( PA, F1, Medio, T1)Y¬(PA,F2,Medio, T1)-> ¬[ Y ¬(PA, F1, Arriba,1Y)]¬( PA, F1, Medio, T2)Y¬(PA,F2,Medio, T2)-> ¬[ Y ¬(PA, F1, Arriba,2Y)]¬( PA, F1, Medio, T3)Y¬(PA,F2,Medio, T3)-> ¬[ ]
+
+__________________________________________________
+¬( PA, F1, Abajo, T7)Y¬(PA,F2,Abajo, T7)Y¬(PA,F3,Abajo, T7)-> [
+¬( PA, F1, Medio, T1)Y¬(PA,F2,Medio, T1)-> ¬[ Y ¬(PA, F1, Arriba,1Y)]¬( PA, F1, Medio, T2)Y¬(PA,F2,Medio, T2)-> ¬[ Y ¬(PA, F1, Arriba,2Y)]¬( PA, F1, Medio, T3)Y¬(PA,F2,Medio, T3)-> ¬[ ]
+
+__________________________________________________
+¬( PA, F1, Abajo, T8)Y¬(PA,F2,Abajo, T8)Y¬(PA,F3,Abajo, T8)-> [
+¬( PA, F1, Medio, T1)Y¬(PA,F2,Medio, T1)-> ¬[ Y ¬(PA, F1, Arriba,1Y)]¬( PA, F1, Medio, T2)Y¬(PA,F2,Medio, T2)-> ¬[ Y ¬(PA, F1, Arriba,2Y)]¬( PA, F1, Medio, T3)Y¬(PA,F2,Medio, T3)-> ¬[ ]
+
+__________________________________________________
+¬( PB, F1, Abajo, T1)Y¬(PB,F2,Abajo, T1)Y¬(PB,F3,Abajo, T1)-> [
+¬( PA, F1, Medio, T1)Y¬(PA,F2,Medio, T1)-> ¬[ Y ¬(PA, F1, Arriba,1Y)]¬( PA, F1, Medio, T2)Y¬(PA,F2,Medio, T2)-> ¬[ Y ¬(PA, F1, Arriba,2Y)]¬( PA, F1, Medio, T3)Y¬(PA,F2,Medio, T3)-> ¬[ ]
+
+__________________________________________________
+¬( PB, F1, Abajo, T2)Y¬(PB,F2,Abajo, T2)Y¬(PB,F3,Abajo, T2)-> [
+¬( PA, F1, Medio, T1)Y¬(PA,F2,Medio, T1)-> ¬[ Y ¬(PA, F1, Arriba,1Y)]¬( PA, F1, Medio, T2)Y¬(PA,F2,Medio, T2)-> ¬[ Y ¬(PA, F1, Arriba,2Y)]¬( PA, F1, Medio, T3)Y¬(PA,F2,Medio, T3)-> ¬[ ]
+
+__________________________________________________
+¬( PB, F1, Abajo, T3)Y¬(PB,F2,Abajo, T3)Y¬(PB,F3,Abajo, T3)-> [
+¬( PA, F1, Medio, T1)Y¬(PA,F2,Medio, T1)-> ¬[ Y ¬(PA, F1, Arriba,1Y)]¬( PA, F1, Medio, T2)Y¬(PA,F2,Medio, T2)-> ¬[ Y ¬(PA, F1, Arriba,2Y)]¬( PA, F1, Medio, T3)Y¬(PA,F2,Medio, T3)-> ¬[ ]
+
+__________________________________________________
+¬( PB, F1, Abajo, T4)Y¬(PB,F2,Abajo, T4)Y¬(PB,F3,Abajo, T4)-> [
+¬( PA, F1, Medio, T1)Y¬(PA,F2,Medio, T1)-> ¬[ Y ¬(PA, F1, Arriba,1Y)]¬( PA, F1, Medio, T2)Y¬(PA,F2,Medio, T2)-> ¬[ Y ¬(PA, F1, Arriba,2Y)]¬( PA, F1, Medio, T3)Y¬(PA,F2,Medio, T3)-> ¬[ ]
+
+__________________________________________________
+¬( PB, F1, Abajo, T5)Y¬(PB,F2,Abajo, T5)Y¬(PB,F3,Abajo, T5)-> [
+¬( PA, F1, Medio, T1)Y¬(PA,F2,Medio, T1)-> ¬[ Y ¬(PA, F1, Arriba,1Y)]¬( PA, F1, Medio, T2)Y¬(PA,F2,Medio, T2)-> ¬[ Y ¬(PA, F1, Arriba,2Y)]¬( PA, F1, Medio, T3)Y¬(PA,F2,Medio, T3)-> ¬[ ]
+
+__________________________________________________
+¬( PB, F1, Abajo, T6)Y¬(PB,F2,Abajo, T6)Y¬(PB,F3,Abajo, T6)-> [
+¬( PA, F1, Medio, T1)Y¬(PA,F2,Medio, T1)-> ¬[ Y ¬(PA, F1, Arriba,1Y)]¬( PA, F1, Medio, T2)Y¬(PA,F2,Medio, T2)-> ¬[ Y ¬(PA, F1, Arriba,2Y)]¬( PA, F1, Medio, T3)Y¬(PA,F2,Medio, T3)-> ¬[ ]
+
+__________________________________________________
+¬( PB, F1, Abajo, T7)Y¬(PB,F2,Abajo, T7)Y¬(PB,F3,Abajo, T7)-> [
+¬( PA, F1, Medio, T1)Y¬(PA,F2,Medio, T1)-> ¬[ Y ¬(PA, F1, Arriba,1Y)]¬( PA, F1, Medio, T2)Y¬(PA,F2,Medio, T2)-> ¬[ Y ¬(PA, F1, Arriba,2Y)]¬( PA, F1, Medio, T3)Y¬(PA,F2,Medio, T3)-> ¬[ ]
+
+__________________________________________________
+¬( PB, F1, Abajo, T8)Y¬(PB,F2,Abajo, T8)Y¬(PB,F3,Abajo, T8)-> [
+¬( PA, F1, Medio, T1)Y¬(PA,F2,Medio, T1)-> ¬[ Y ¬(PA, F1, Arriba,1Y)]¬( PA, F1, Medio, T2)Y¬(PA,F2,Medio, T2)-> ¬[ Y ¬(PA, F1, Arriba,2Y)]¬( PA, F1, Medio, T3)Y¬(PA,F2,Medio, T3)-> ¬[ ]
+
+__________________________________________________
+¬( PC, F1, Abajo, T1)Y¬(PC,F2,Abajo, T1)Y¬(PC,F3,Abajo, T1)-> [
+¬( PA, F1, Medio, T1)Y¬(PA,F2,Medio, T1)-> ¬[ Y ¬(PA, F1, Arriba,1Y)]¬( PA, F1, Medio, T2)Y¬(PA,F2,Medio, T2)-> ¬[ Y ¬(PA, F1, Arriba,2Y)]¬( PA, F1, Medio, T3)Y¬(PA,F2,Medio, T3)-> ¬[ ]
+
+__________________________________________________
+¬( PC, F1, Abajo, T2)Y¬(PC,F2,Abajo, T2)Y¬(PC,F3,Abajo, T2)-> [
+¬( PA, F1, Medio, T1)Y¬(PA,F2,Medio, T1)-> ¬[ Y ¬(PA, F1, Arriba,1Y)]¬( PA, F1, Medio, T2)Y¬(PA,F2,Medio, T2)-> ¬[ Y ¬(PA, F1, Arriba,2Y)]¬( PA, F1, Medio, T3)Y¬(PA,F2,Medio, T3)-> ¬[ ]
+
+__________________________________________________
+¬( PC, F1, Abajo, T3)Y¬(PC,F2,Abajo, T3)Y¬(PC,F3,Abajo, T3)-> [
+¬( PA, F1, Medio, T1)Y¬(PA,F2,Medio, T1)-> ¬[ Y ¬(PA, F1, Arriba,1Y)]¬( PA, F1, Medio, T2)Y¬(PA,F2,Medio, T2)-> ¬[ Y ¬(PA, F1, Arriba,2Y)]¬( PA, F1, Medio, T3)Y¬(PA,F2,Medio, T3)-> ¬[ ]
+
+__________________________________________________
+¬( PC, F1, Abajo, T4)Y¬(PC,F2,Abajo, T4)Y¬(PC,F3,Abajo, T4)-> [
+¬( PA, F1, Medio, T1)Y¬(PA,F2,Medio, T1)-> ¬[ Y ¬(PA, F1, Arriba,1Y)]¬( PA, F1, Medio, T2)Y¬(PA,F2,Medio, T2)-> ¬[ Y ¬(PA, F1, Arriba,2Y)]¬( PA, F1, Medio, T3)Y¬(PA,F2,Medio, T3)-> ¬[ ]
+
+__________________________________________________
+¬( PC, F1, Abajo, T5)Y¬(PC,F2,Abajo, T5)Y¬(PC,F3,Abajo, T5)-> [
+¬( PA, F1, Medio, T1)Y¬(PA,F2,Medio, T1)-> ¬[ Y ¬(PA, F1, Arriba,1Y)]¬( PA, F1, Medio, T2)Y¬(PA,F2,Medio, T2)-> ¬[ Y ¬(PA, F1, Arriba,2Y)]¬( PA, F1, Medio, T3)Y¬(PA,F2,Medio, T3)-> ¬[ ]
+
+__________________________________________________
+¬( PC, F1, Abajo, T6)Y¬(PC,F2,Abajo, T6)Y¬(PC,F3,Abajo, T6)-> [
+¬( PA, F1, Medio, T1)Y¬(PA,F2,Medio, T1)-> ¬[ Y ¬(PA, F1, Arriba,1Y)]¬( PA, F1, Medio, T2)Y¬(PA,F2,Medio, T2)-> ¬[ Y ¬(PA, F1, Arriba,2Y)]¬( PA, F1, Medio, T3)Y¬(PA,F2,Medio, T3)-> ¬[ ]
+
+__________________________________________________
+¬( PC, F1, Abajo, T7)Y¬(PC,F2,Abajo, T7)Y¬(PC,F3,Abajo, T7)-> [
+¬( PA, F1, Medio, T1)Y¬(PA,F2,Medio, T1)-> ¬[ Y ¬(PA, F1, Arriba,1Y)]¬( PA, F1, Medio, T2)Y¬(PA,F2,Medio, T2)-> ¬[ Y ¬(PA, F1, Arriba,2Y)]¬( PA, F1, Medio, T3)Y¬(PA,F2,Medio, T3)-> ¬[ ]
+
+__________________________________________________
+¬( PC, F1, Abajo, T8)Y¬(PC,F2,Abajo, T8)Y¬(PC,F3,Abajo, T8)-> [
+¬( PA, F1, Medio, T1)Y¬(PA,F2,Medio, T1)-> ¬[ Y ¬(PA, F1, Arriba,1Y)]¬( PA, F1, Medio, T2)Y¬(PA,F2,Medio, T2)-> ¬[ Y ¬(PA, F1, Arriba,2Y)]¬( PA, F1, Medio, T3)Y¬(PA,F2,Medio, T3)-> ¬[ ]
+
+__________________________________________________
+¬( PA, F1, Abajo, T1)Y¬(PA,F2,Abajo, T1)Y¬(PA,F3,Abajo, T1)-> [
+¬( PA, F1, Medio, T1)Y¬(PA,F2,Medio, T1)-> ¬[ Y ¬(PA, F1, Arriba,1Y)]¬( PA, F1, Medio, T2)Y¬(PA,F2,Medio, T2)-> ¬[ Y ¬(PA, F1, Arriba,2Y)]¬( PA, F1, Medio, T3)Y¬(PA,F2,Medio, T3)-> ¬[ ]
+
+__________________________________________________
+¬( PA, F1, Abajo, T2)Y¬(PA,F2,Abajo, T2)Y¬(PA,F3,Abajo, T2)-> [
+¬( PA, F1, Medio, T1)Y¬(PA,F2,Medio, T1)-> ¬[ Y ¬(PA, F1, Arriba,1Y)]¬( PA, F1, Medio, T2)Y¬(PA,F2,Medio, T2)-> ¬[ Y ¬(PA, F1, Arriba,2Y)]¬( PA, F1, Medio, T3)Y¬(PA,F2,Medio, T3)-> ¬[ ]
+
+__________________________________________________
+¬( PA, F1, Abajo, T3)Y¬(PA,F2,Abajo, T3)Y¬(PA,F3,Abajo, T3)-> [
+¬( PA, F1, Medio, T1)Y¬(PA,F2,Medio, T1)-> ¬[ Y ¬(PA, F1, Arriba,1Y)]¬( PA, F1, Medio, T2)Y¬(PA,F2,Medio, T2)-> ¬[ Y ¬(PA, F1, Arriba,2Y)]¬( PA, F1, Medio, T3)Y¬(PA,F2,Medio, T3)-> ¬[ ]
+
+__________________________________________________
+¬( PA, F1, Abajo, T4)Y¬(PA,F2,Abajo, T4)Y¬(PA,F3,Abajo, T4)-> [
+¬( PA, F1, Medio, T1)Y¬(PA,F2,Medio, T1)-> ¬[ Y ¬(PA, F1, Arriba,1Y)]¬( PA, F1, Medio, T2)Y¬(PA,F2,Medio, T2)-> ¬[ Y ¬(PA, F1, Arriba,2Y)]¬( PA, F1, Medio, T3)Y¬(PA,F2,Medio, T3)-> ¬[ ]
+
+__________________________________________________
+¬( PA, F1, Abajo, T5)Y¬(PA,F2,Abajo, T5)Y¬(PA,F3,Abajo, T5)-> [
+¬( PA, F1, Medio, T1)Y¬(PA,F2,Medio, T1)-> ¬[ Y ¬(PA, F1, Arriba,1Y)]¬( PA, F1, Medio, T2)Y¬(PA,F2,Medio, T2)-> ¬[ Y ¬(PA, F1, Arriba,2Y)]¬( PA, F1, Medio, T3)Y¬(PA,F2,Medio, T3)-> ¬[ ]
+
+__________________________________________________
+¬( PA, F1, Abajo, T6)Y¬(PA,F2,Abajo, T6)Y¬(PA,F3,Abajo, T6)-> [
+¬( PA, F1, Medio, T1)Y¬(PA,F2,Medio, T1)-> ¬[ Y ¬(PA, F1, Arriba,1Y)]¬( PA, F1, Medio, T2)Y¬(PA,F2,Medio, T2)-> ¬[ Y ¬(PA, F1, Arriba,2Y)]¬( PA, F1, Medio, T3)Y¬(PA,F2,Medio, T3)-> ¬[ ]
+
+__________________________________________________
+¬( PA, F1, Abajo, T7)Y¬(PA,F2,Abajo, T7)Y¬(PA,F3,Abajo, T7)-> [
+¬( PA, F1, Medio, T1)Y¬(PA,F2,Medio, T1)-> ¬[ Y ¬(PA, F1, Arriba,1Y)]¬( PA, F1, Medio, T2)Y¬(PA,F2,Medio, T2)-> ¬[ Y ¬(PA, F1, Arriba,2Y)]¬( PA, F1, Medio, T3)Y¬(PA,F2,Medio, T3)-> ¬[ ]
+
+__________________________________________________
+¬( PA, F1, Abajo, T8)Y¬(PA,F2,Abajo, T8)Y¬(PA,F3,Abajo, T8)-> [
+¬( PA, F1, Medio, T1)Y¬(PA,F2,Medio, T1)-> ¬[ Y ¬(PA, F1, Arriba,1Y)]¬( PA, F1, Medio, T2)Y¬(PA,F2,Medio, T2)-> ¬[ Y ¬(PA, F1, Arriba,2Y)]¬( PA, F1, Medio, T3)Y¬(PA,F2,Medio, T3)-> ¬[ ]
+
+__________________________________________________
+¬( PB, F1, Abajo, T1)Y¬(PB,F2,Abajo, T1)Y¬(PB,F3,Abajo, T1)-> [
+¬( PA, F1, Medio, T1)Y¬(PA,F2,Medio, T1)-> ¬[ Y ¬(PA, F1, Arriba,1Y)]¬( PA, F1, Medio, T2)Y¬(PA,F2,Medio, T2)-> ¬[ Y ¬(PA, F1, Arriba,2Y)]¬( PA, F1, Medio, T3)Y¬(PA,F2,Medio, T3)-> ¬[ ]
+
+__________________________________________________
+¬( PB, F1, Abajo, T2)Y¬(PB,F2,Abajo, T2)Y¬(PB,F3,Abajo, T2)-> [
+¬( PA, F1, Medio, T1)Y¬(PA,F2,Medio, T1)-> ¬[ Y ¬(PA, F1, Arriba,1Y)]¬( PA, F1, Medio, T2)Y¬(PA,F2,Medio, T2)-> ¬[ Y ¬(PA, F1, Arriba,2Y)]¬( PA, F1, Medio, T3)Y¬(PA,F2,Medio, T3)-> ¬[ ]
+
+__________________________________________________
+¬( PB, F1, Abajo, T3)Y¬(PB,F2,Abajo, T3)Y¬(PB,F3,Abajo, T3)-> [
+¬( PA, F1, Medio, T1)Y¬(PA,F2,Medio, T1)-> ¬[ Y ¬(PA, F1, Arriba,1Y)]¬( PA, F1, Medio, T2)Y¬(PA,F2,Medio, T2)-> ¬[ Y ¬(PA, F1, Arriba,2Y)]¬( PA, F1, Medio, T3)Y¬(PA,F2,Medio, T3)-> ¬[ ]
+
+__________________________________________________
+¬( PB, F1, Abajo, T4)Y¬(PB,F2,Abajo, T4)Y¬(PB,F3,Abajo, T4)-> [
+¬( PA, F1, Medio, T1)Y¬(PA,F2,Medio, T1)-> ¬[ Y ¬(PA, F1, Arriba,1Y)]¬( PA, F1, Medio, T2)Y¬(PA,F2,Medio, T2)-> ¬[ Y ¬(PA, F1, Arriba,2Y)]¬( PA, F1, Medio, T3)Y¬(PA,F2,Medio, T3)-> ¬[ ]
+
+__________________________________________________
+¬( PB, F1, Abajo, T5)Y¬(PB,F2,Abajo, T5)Y¬(PB,F3,Abajo, T5)-> [
+¬( PA, F1, Medio, T1)Y¬(PA,F2,Medio, T1)-> ¬[ Y ¬(PA, F1, Arriba,1Y)]¬( PA, F1, Medio, T2)Y¬(PA,F2,Medio, T2)-> ¬[ Y ¬(PA, F1, Arriba,2Y)]¬( PA, F1, Medio, T3)Y¬(PA,F2,Medio, T3)-> ¬[ ]
+
+__________________________________________________
+¬( PB, F1, Abajo, T6)Y¬(PB,F2,Abajo, T6)Y¬(PB,F3,Abajo, T6)-> [
+¬( PA, F1, Medio, T1)Y¬(PA,F2,Medio, T1)-> ¬[ Y ¬(PA, F1, Arriba,1Y)]¬( PA, F1, Medio, T2)Y¬(PA,F2,Medio, T2)-> ¬[ Y ¬(PA, F1, Arriba,2Y)]¬( PA, F1, Medio, T3)Y¬(PA,F2,Medio, T3)-> ¬[ ]
+
+__________________________________________________
+¬( PB, F1, Abajo, T7)Y¬(PB,F2,Abajo, T7)Y¬(PB,F3,Abajo, T7)-> [
+¬( PA, F1, Medio, T1)Y¬(PA,F2,Medio, T1)-> ¬[ Y ¬(PA, F1, Arriba,1Y)]¬( PA, F1, Medio, T2)Y¬(PA,F2,Medio, T2)-> ¬[ Y ¬(PA, F1, Arriba,2Y)]¬( PA, F1, Medio, T3)Y¬(PA,F2,Medio, T3)-> ¬[ ]
+
+__________________________________________________
+¬( PB, F1, Abajo, T8)Y¬(PB,F2,Abajo, T8)Y¬(PB,F3,Abajo, T8)-> [
+¬( PA, F1, Medio, T1)Y¬(PA,F2,Medio, T1)-> ¬[ Y ¬(PA, F1, Arriba,1Y)]¬( PA, F1, Medio, T2)Y¬(PA,F2,Medio, T2)-> ¬[ Y ¬(PA, F1, Arriba,2Y)]¬( PA, F1, Medio, T3)Y¬(PA,F2,Medio, T3)-> ¬[ ]
+
+__________________________________________________
+¬( PC, F1, Abajo, T1)Y¬(PC,F2,Abajo, T1)Y¬(PC,F3,Abajo, T1)-> [
+¬( PA, F1, Medio, T1)Y¬(PA,F2,Medio, T1)-> ¬[ Y ¬(PA, F1, Arriba,1Y)]¬( PA, F1, Medio, T2)Y¬(PA,F2,Medio, T2)-> ¬[ Y ¬(PA, F1, Arriba,2Y)]¬( PA, F1, Medio, T3)Y¬(PA,F2,Medio, T3)-> ¬[ ]
+
+__________________________________________________
+¬( PC, F1, Abajo, T2)Y¬(PC,F2,Abajo, T2)Y¬(PC,F3,Abajo, T2)-> [
+¬( PA, F1, Medio, T1)Y¬(PA,F2,Medio, T1)-> ¬[ Y ¬(PA, F1, Arriba,1Y)]¬( PA, F1, Medio, T2)Y¬(PA,F2,Medio, T2)-> ¬[ Y ¬(PA, F1, Arriba,2Y)]¬( PA, F1, Medio, T3)Y¬(PA,F2,Medio, T3)-> ¬[ ]
+
+__________________________________________________
+¬( PC, F1, Abajo, T3)Y¬(PC,F2,Abajo, T3)Y¬(PC,F3,Abajo, T3)-> [
+¬( PA, F1, Medio, T1)Y¬(PA,F2,Medio, T1)-> ¬[ Y ¬(PA, F1, Arriba,1Y)]¬( PA, F1, Medio, T2)Y¬(PA,F2,Medio, T2)-> ¬[ Y ¬(PA, F1, Arriba,2Y)]¬( PA, F1, Medio, T3)Y¬(PA,F2,Medio, T3)-> ¬[ ]
+
+__________________________________________________
+¬( PC, F1, Abajo, T4)Y¬(PC,F2,Abajo, T4)Y¬(PC,F3,Abajo, T4)-> [
+¬( PA, F1, Medio, T1)Y¬(PA,F2,Medio, T1)-> ¬[ Y ¬(PA, F1, Arriba,1Y)]¬( PA, F1, Medio, T2)Y¬(PA,F2,Medio, T2)-> ¬[ Y ¬(PA, F1, Arriba,2Y)]¬( PA, F1, Medio, T3)Y¬(PA,F2,Medio, T3)-> ¬[ ]
+
+__________________________________________________
+¬( PC, F1, Abajo, T5)Y¬(PC,F2,Abajo, T5)Y¬(PC,F3,Abajo, T5)-> [
+¬( PA, F1, Medio, T1)Y¬(PA,F2,Medio, T1)-> ¬[ Y ¬(PA, F1, Arriba,1Y)]¬( PA, F1, Medio, T2)Y¬(PA,F2,Medio, T2)-> ¬[ Y ¬(PA, F1, Arriba,2Y)]¬( PA, F1, Medio, T3)Y¬(PA,F2,Medio, T3)-> ¬[ ]
+
+__________________________________________________
+¬( PC, F1, Abajo, T6)Y¬(PC,F2,Abajo, T6)Y¬(PC,F3,Abajo, T6)-> [
+¬( PA, F1, Medio, T1)Y¬(PA,F2,Medio, T1)-> ¬[ Y ¬(PA, F1, Arriba,1Y)]¬( PA, F1, Medio, T2)Y¬(PA,F2,Medio, T2)-> ¬[ Y ¬(PA, F1, Arriba,2Y)]¬( PA, F1, Medio, T3)Y¬(PA,F2,Medio, T3)-> ¬[ ]
+
+__________________________________________________
+¬( PC, F1, Abajo, T7)Y¬(PC,F2,Abajo, T7)Y¬(PC,F3,Abajo, T7)-> [
+¬( PA, F1, Medio, T1)Y¬(PA,F2,Medio, T1)-> ¬[ Y ¬(PA, F1, Arriba,1Y)]¬( PA, F1, Medio, T2)Y¬(PA,F2,Medio, T2)-> ¬[ Y ¬(PA, F1, Arriba,2Y)]¬( PA, F1, Medio, T3)Y¬(PA,F2,Medio, T3)-> ¬[ ]
+
+__________________________________________________
+¬( PC, F1, Abajo, T8)Y¬(PC,F2,Abajo, T8)Y¬(PC,F3,Abajo, T8)-> [
+¬( PA, F1, Medio, T1)Y¬(PA,F2,Medio, T1)-> ¬[ Y ¬(PA, F1, Arriba,1Y)]¬( PA, F1, Medio, T2)Y¬(PA,F2,Medio, T2)-> ¬[ Y ¬(PA, F1, Arriba,2Y)]¬( PA, F1, Medio, T3)Y¬(PA,F2,Medio, T3)-> ¬[ ]
+
+__________________________________________________
+¬( PA, F1, Abajo, T1)Y¬(PA,F2,Abajo, T1)Y¬(PA,F3,Abajo, T1)-> [
+¬( PA, F1, Medio, T1)Y¬(PA,F2,Medio, T1)-> ¬[ Y ¬(PA, F1, Arriba,1Y)]¬( PA, F1, Medio, T2)Y¬(PA,F2,Medio, T2)-> ¬[ Y ¬(PA, F1, Arriba,2Y)]¬( PA, F1, Medio, T3)Y¬(PA,F2,Medio, T3)-> ¬[ ]
+
+__________________________________________________
+¬( PA, F1, Abajo, T2)Y¬(PA,F2,Abajo, T2)Y¬(PA,F3,Abajo, T2)-> [
+¬( PA, F1, Medio, T1)Y¬(PA,F2,Medio, T1)-> ¬[ Y ¬(PA, F1, Arriba,1Y)]¬( PA, F1, Medio, T2)Y¬(PA,F2,Medio, T2)-> ¬[ Y ¬(PA, F1, Arriba,2Y)]¬( PA, F1, Medio, T3)Y¬(PA,F2,Medio, T3)-> ¬[ ]
+
+__________________________________________________
+¬( PA, F1, Abajo, T3)Y¬(PA,F2,Abajo, T3)Y¬(PA,F3,Abajo, T3)-> [
+¬( PA, F1, Medio, T1)Y¬(PA,F2,Medio, T1)-> ¬[ Y ¬(PA, F1, Arriba,1Y)]¬( PA, F1, Medio, T2)Y¬(PA,F2,Medio, T2)-> ¬[ Y ¬(PA, F1, Arriba,2Y)]¬( PA, F1, Medio, T3)Y¬(PA,F2,Medio, T3)-> ¬[ ]
+
+__________________________________________________
+¬( PA, F1, Abajo, T4)Y¬(PA,F2,Abajo, T4)Y¬(PA,F3,Abajo, T4)-> [
+¬( PA, F1, Medio, T1)Y¬(PA,F2,Medio, T1)-> ¬[ Y ¬(PA, F1, Arriba,1Y)]¬( PA, F1, Medio, T2)Y¬(PA,F2,Medio, T2)-> ¬[ Y ¬(PA, F1, Arriba,2Y)]¬( PA, F1, Medio, T3)Y¬(PA,F2,Medio, T3)-> ¬[ ]
+
+__________________________________________________
+¬( PA, F1, Abajo, T5)Y¬(PA,F2,Abajo, T5)Y¬(PA,F3,Abajo, T5)-> [
+¬( PA, F1, Medio, T1)Y¬(PA,F2,Medio, T1)-> ¬[ Y ¬(PA, F1, Arriba,1Y)]¬( PA, F1, Medio, T2)Y¬(PA,F2,Medio, T2)-> ¬[ Y ¬(PA, F1, Arriba,2Y)]¬( PA, F1, Medio, T3)Y¬(PA,F2,Medio, T3)-> ¬[ ]
+
+__________________________________________________
+¬( PA, F1, Abajo, T6)Y¬(PA,F2,Abajo, T6)Y¬(PA,F3,Abajo, T6)-> [
+¬( PA, F1, Medio, T1)Y¬(PA,F2,Medio, T1)-> ¬[ Y ¬(PA, F1, Arriba,1Y)]¬( PA, F1, Medio, T2)Y¬(PA,F2,Medio, T2)-> ¬[ Y ¬(PA, F1, Arriba,2Y)]¬( PA, F1, Medio, T3)Y¬(PA,F2,Medio, T3)-> ¬[ ]
+
+__________________________________________________
+¬( PA, F1, Abajo, T7)Y¬(PA,F2,Abajo, T7)Y¬(PA,F3,Abajo, T7)-> [
+¬( PA, F1, Medio, T1)Y¬(PA,F2,Medio, T1)-> ¬[ Y ¬(PA, F1, Arriba,1Y)]¬( PA, F1, Medio, T2)Y¬(PA,F2,Medio, T2)-> ¬[ Y ¬(PA, F1, Arriba,2Y)]¬( PA, F1, Medio, T3)Y¬(PA,F2,Medio, T3)-> ¬[ ]
+
+__________________________________________________
+¬( PA, F1, Abajo, T8)Y¬(PA,F2,Abajo, T8)Y¬(PA,F3,Abajo, T8)-> [
+¬( PA, F1, Medio, T1)Y¬(PA,F2,Medio, T1)-> ¬[ Y ¬(PA, F1, Arriba,1Y)]¬( PA, F1, Medio, T2)Y¬(PA,F2,Medio, T2)-> ¬[ Y ¬(PA, F1, Arriba,2Y)]¬( PA, F1, Medio, T3)Y¬(PA,F2,Medio, T3)-> ¬[ ]
+
+__________________________________________________
+¬( PB, F1, Abajo, T1)Y¬(PB,F2,Abajo, T1)Y¬(PB,F3,Abajo, T1)-> [
+¬( PA, F1, Medio, T1)Y¬(PA,F2,Medio, T1)-> ¬[ Y ¬(PA, F1, Arriba,1Y)]¬( PA, F1, Medio, T2)Y¬(PA,F2,Medio, T2)-> ¬[ Y ¬(PA, F1, Arriba,2Y)]¬( PA, F1, Medio, T3)Y¬(PA,F2,Medio, T3)-> ¬[ ]
+
+__________________________________________________
+¬( PB, F1, Abajo, T2)Y¬(PB,F2,Abajo, T2)Y¬(PB,F3,Abajo, T2)-> [
+¬( PA, F1, Medio, T1)Y¬(PA,F2,Medio, T1)-> ¬[ Y ¬(PA, F1, Arriba,1Y)]¬( PA, F1, Medio, T2)Y¬(PA,F2,Medio, T2)-> ¬[ Y ¬(PA, F1, Arriba,2Y)]¬( PA, F1, Medio, T3)Y¬(PA,F2,Medio, T3)-> ¬[ ]
+
+__________________________________________________
+¬( PB, F1, Abajo, T3)Y¬(PB,F2,Abajo, T3)Y¬(PB,F3,Abajo, T3)-> [
+¬( PA, F1, Medio, T1)Y¬(PA,F2,Medio, T1)-> ¬[ Y ¬(PA, F1, Arriba,1Y)]¬( PA, F1, Medio, T2)Y¬(PA,F2,Medio, T2)-> ¬[ Y ¬(PA, F1, Arriba,2Y)]¬( PA, F1, Medio, T3)Y¬(PA,F2,Medio, T3)-> ¬[ ]
+
+__________________________________________________
+¬( PB, F1, Abajo, T4)Y¬(PB,F2,Abajo, T4)Y¬(PB,F3,Abajo, T4)-> [
+¬( PA, F1, Medio, T1)Y¬(PA,F2,Medio, T1)-> ¬[ Y ¬(PA, F1, Arriba,1Y)]¬( PA, F1, Medio, T2)Y¬(PA,F2,Medio, T2)-> ¬[ Y ¬(PA, F1, Arriba,2Y)]¬( PA, F1, Medio, T3)Y¬(PA,F2,Medio, T3)-> ¬[ ]
+
+__________________________________________________
+¬( PB, F1, Abajo, T5)Y¬(PB,F2,Abajo, T5)Y¬(PB,F3,Abajo, T5)-> [
+¬( PA, F1, Medio, T1)Y¬(PA,F2,Medio, T1)-> ¬[ Y ¬(PA, F1, Arriba,1Y)]¬( PA, F1, Medio, T2)Y¬(PA,F2,Medio, T2)-> ¬[ Y ¬(PA, F1, Arriba,2Y)]¬( PA, F1, Medio, T3)Y¬(PA,F2,Medio, T3)-> ¬[ ]
+
+__________________________________________________
+¬( PB, F1, Abajo, T6)Y¬(PB,F2,Abajo, T6)Y¬(PB,F3,Abajo, T6)-> [
+¬( PA, F1, Medio, T1)Y¬(PA,F2,Medio, T1)-> ¬[ Y ¬(PA, F1, Arriba,1Y)]¬( PA, F1, Medio, T2)Y¬(PA,F2,Medio, T2)-> ¬[ Y ¬(PA, F1, Arriba,2Y)]¬( PA, F1, Medio, T3)Y¬(PA,F2,Medio, T3)-> ¬[ ]
+
+__________________________________________________
+¬( PB, F1, Abajo, T7)Y¬(PB,F2,Abajo, T7)Y¬(PB,F3,Abajo, T7)-> [
+¬( PA, F1, Medio, T1)Y¬(PA,F2,Medio, T1)-> ¬[ Y ¬(PA, F1, Arriba,1Y)]¬( PA, F1, Medio, T2)Y¬(PA,F2,Medio, T2)-> ¬[ Y ¬(PA, F1, Arriba,2Y)]¬( PA, F1, Medio, T3)Y¬(PA,F2,Medio, T3)-> ¬[ ]
+
+__________________________________________________
+¬( PB, F1, Abajo, T8)Y¬(PB,F2,Abajo, T8)Y¬(PB,F3,Abajo, T8)-> [
+¬( PA, F1, Medio, T1)Y¬(PA,F2,Medio, T1)-> ¬[ Y ¬(PA, F1, Arriba,1Y)]¬( PA, F1, Medio, T2)Y¬(PA,F2,Medio, T2)-> ¬[ Y ¬(PA, F1, Arriba,2Y)]¬( PA, F1, Medio, T3)Y¬(PA,F2,Medio, T3)-> ¬[ ]
+
+__________________________________________________
+¬( PC, F1, Abajo, T1)Y¬(PC,F2,Abajo, T1)Y¬(PC,F3,Abajo, T1)-> [
+¬( PA, F1, Medio, T1)Y¬(PA,F2,Medio, T1)-> ¬[ Y ¬(PA, F1, Arriba,1Y)]¬( PA, F1, Medio, T2)Y¬(PA,F2,Medio, T2)-> ¬[ Y ¬(PA, F1, Arriba,2Y)]¬( PA, F1, Medio, T3)Y¬(PA,F2,Medio, T3)-> ¬[ ]
+
+__________________________________________________
+¬( PC, F1, Abajo, T2)Y¬(PC,F2,Abajo, T2)Y¬(PC,F3,Abajo, T2)-> [
+¬( PA, F1, Medio, T1)Y¬(PA,F2,Medio, T1)-> ¬[ Y ¬(PA, F1, Arriba,1Y)]¬( PA, F1, Medio, T2)Y¬(PA,F2,Medio, T2)-> ¬[ Y ¬(PA, F1, Arriba,2Y)]¬( PA, F1, Medio, T3)Y¬(PA,F2,Medio, T3)-> ¬[ ]
+
+__________________________________________________
+¬( PC, F1, Abajo, T3)Y¬(PC,F2,Abajo, T3)Y¬(PC,F3,Abajo, T3)-> [
+¬( PA, F1, Medio, T1)Y¬(PA,F2,Medio, T1)-> ¬[ Y ¬(PA, F1, Arriba,1Y)]¬( PA, F1, Medio, T2)Y¬(PA,F2,Medio, T2)-> ¬[ Y ¬(PA, F1, Arriba,2Y)]¬( PA, F1, Medio, T3)Y¬(PA,F2,Medio, T3)-> ¬[ ]
+
+__________________________________________________
+¬( PC, F1, Abajo, T4)Y¬(PC,F2,Abajo, T4)Y¬(PC,F3,Abajo, T4)-> [
+¬( PA, F1, Medio, T1)Y¬(PA,F2,Medio, T1)-> ¬[ Y ¬(PA, F1, Arriba,1Y)]¬( PA, F1, Medio, T2)Y¬(PA,F2,Medio, T2)-> ¬[ Y ¬(PA, F1, Arriba,2Y)]¬( PA, F1, Medio, T3)Y¬(PA,F2,Medio, T3)-> ¬[ ]
+
+__________________________________________________
+¬( PC, F1, Abajo, T5)Y¬(PC,F2,Abajo, T5)Y¬(PC,F3,Abajo, T5)-> [
+¬( PA, F1, Medio, T1)Y¬(PA,F2,Medio, T1)-> ¬[ Y ¬(PA, F1, Arriba,1Y)]¬( PA, F1, Medio, T2)Y¬(PA,F2,Medio, T2)-> ¬[ Y ¬(PA, F1, Arriba,2Y)]¬( PA, F1, Medio, T3)Y¬(PA,F2,Medio, T3)-> ¬[ ]
+
+__________________________________________________
+¬( PC, F1, Abajo, T6)Y¬(PC,F2,Abajo, T6)Y¬(PC,F3,Abajo, T6)-> [
+¬( PA, F1, Medio, T1)Y¬(PA,F2,Medio, T1)-> ¬[ Y ¬(PA, F1, Arriba,1Y)]¬( PA, F1, Medio, T2)Y¬(PA,F2,Medio, T2)-> ¬[ Y ¬(PA, F1, Arriba,2Y)]¬( PA, F1, Medio, T3)Y¬(PA,F2,Medio, T3)-> ¬[ ]
+
+__________________________________________________
+¬( PC, F1, Abajo, T7)Y¬(PC,F2,Abajo, T7)Y¬(PC,F3,Abajo, T7)-> [
+¬( PA, F1, Medio, T1)Y¬(PA,F2,Medio, T1)-> ¬[ Y ¬(PA, F1, Arriba,1Y)]¬( PA, F1, Medio, T2)Y¬(PA,F2,Medio, T2)-> ¬[ Y ¬(PA, F1, Arriba,2Y)]¬( PA, F1, Medio, T3)Y¬(PA,F2,Medio, T3)-> ¬[ ]
+
+__________________________________________________
+¬( PC, F1, Abajo, T8)Y¬(PC,F2,Abajo, T8)Y¬(PC,F3,Abajo, T8)-> [
+¬( PA, F1, Medio, T1)Y¬(PA,F2,Medio, T1)-> ¬[ Y ¬(PA, F1, Arriba,1Y)]¬( PA, F1, Medio, T2)Y¬(PA,F2,Medio, T2)-> ¬[ Y ¬(PA, F1, Arriba,2Y)]¬( PA, F1, Medio, T3)Y¬(PA,F2,Medio, T3)-> ¬[ ]
+
+__________________________________________________
+¬( PA, F1, Abajo, T1)Y¬(PA,F2,Abajo, T1)Y¬(PA,F3,Abajo, T1)-> [
+¬( PA, F1, Medio, T1)Y¬(PA,F2,Medio, T1)-> ¬[ Y ¬(PA, F1, Arriba,1Y)]¬( PA, F1, Medio, T2)Y¬(PA,F2,Medio, T2)-> ¬[ Y ¬(PA, F1, Arriba,2Y)]¬( PA, F1, Medio, T3)Y¬(PA,F2,Medio, T3)-> ¬[ ]
+
+__________________________________________________
+¬( PA, F1, Abajo, T2)Y¬(PA,F2,Abajo, T2)Y¬(PA,F3,Abajo, T2)-> [
+¬( PA, F1, Medio, T1)Y¬(PA,F2,Medio, T1)-> ¬[ Y ¬(PA, F1, Arriba,1Y)]¬( PA, F1, Medio, T2)Y¬(PA,F2,Medio, T2)-> ¬[ Y ¬(PA, F1, Arriba,2Y)]¬( PA, F1, Medio, T3)Y¬(PA,F2,Medio, T3)-> ¬[ ]
+
+__________________________________________________
+¬( PA, F1, Abajo, T3)Y¬(PA,F2,Abajo, T3)Y¬(PA,F3,Abajo, T3)-> [
+¬( PA, F1, Medio, T1)Y¬(PA,F2,Medio, T1)-> ¬[ Y ¬(PA, F1, Arriba,1Y)]¬( PA, F1, Medio, T2)Y¬(PA,F2,Medio, T2)-> ¬[ Y ¬(PA, F1, Arriba,2Y)]¬( PA, F1, Medio, T3)Y¬(PA,F2,Medio, T3)-> ¬[ ]
+
+__________________________________________________
+¬( PA, F1, Abajo, T4)Y¬(PA,F2,Abajo, T4)Y¬(PA,F3,Abajo, T4)-> [
+¬( PA, F1, Medio, T1)Y¬(PA,F2,Medio, T1)-> ¬[ Y ¬(PA, F1, Arriba,1Y)]¬( PA, F1, Medio, T2)Y¬(PA,F2,Medio, T2)-> ¬[ Y ¬(PA, F1, Arriba,2Y)]¬( PA, F1, Medio, T3)Y¬(PA,F2,Medio, T3)-> ¬[ ]
+
+__________________________________________________
+¬( PA, F1, Abajo, T5)Y¬(PA,F2,Abajo, T5)Y¬(PA,F3,Abajo, T5)-> [
+¬( PA, F1, Medio, T1)Y¬(PA,F2,Medio, T1)-> ¬[ Y ¬(PA, F1, Arriba,1Y)]¬( PA, F1, Medio, T2)Y¬(PA,F2,Medio, T2)-> ¬[ Y ¬(PA, F1, Arriba,2Y)]¬( PA, F1, Medio, T3)Y¬(PA,F2,Medio, T3)-> ¬[ ]
+
+__________________________________________________
+¬( PA, F1, Abajo, T6)Y¬(PA,F2,Abajo, T6)Y¬(PA,F3,Abajo, T6)-> [
+¬( PA, F1, Medio, T1)Y¬(PA,F2,Medio, T1)-> ¬[ Y ¬(PA, F1, Arriba,1Y)]¬( PA, F1, Medio, T2)Y¬(PA,F2,Medio, T2)-> ¬[ Y ¬(PA, F1, Arriba,2Y)]¬( PA, F1, Medio, T3)Y¬(PA,F2,Medio, T3)-> ¬[ ]
+
+__________________________________________________
+¬( PA, F1, Abajo, T7)Y¬(PA,F2,Abajo, T7)Y¬(PA,F3,Abajo, T7)-> [
+¬( PA, F1, Medio, T1)Y¬(PA,F2,Medio, T1)-> ¬[ Y ¬(PA, F1, Arriba,1Y)]¬( PA, F1, Medio, T2)Y¬(PA,F2,Medio, T2)-> ¬[ Y ¬(PA, F1, Arriba,2Y)]¬( PA, F1, Medio, T3)Y¬(PA,F2,Medio, T3)-> ¬[ ]
+
+__________________________________________________
+¬( PA, F1, Abajo, T8)Y¬(PA,F2,Abajo, T8)Y¬(PA,F3,Abajo, T8)-> [
+¬( PA, F1, Medio, T1)Y¬(PA,F2,Medio, T1)-> ¬[ Y ¬(PA, F1, Arriba,1Y)]¬( PA, F1, Medio, T2)Y¬(PA,F2,Medio, T2)-> ¬[ Y ¬(PA, F1, Arriba,2Y)]¬( PA, F1, Medio, T3)Y¬(PA,F2,Medio, T3)-> ¬[ ]
+
+__________________________________________________
+¬( PB, F1, Abajo, T1)Y¬(PB,F2,Abajo, T1)Y¬(PB,F3,Abajo, T1)-> [
+¬( PA, F1, Medio, T1)Y¬(PA,F2,Medio, T1)-> ¬[ Y ¬(PA, F1, Arriba,1Y)]¬( PA, F1, Medio, T2)Y¬(PA,F2,Medio, T2)-> ¬[ Y ¬(PA, F1, Arriba,2Y)]¬( PA, F1, Medio, T3)Y¬(PA,F2,Medio, T3)-> ¬[ ]
+
+__________________________________________________
+¬( PB, F1, Abajo, T2)Y¬(PB,F2,Abajo, T2)Y¬(PB,F3,Abajo, T2)-> [
+¬( PA, F1, Medio, T1)Y¬(PA,F2,Medio, T1)-> ¬[ Y ¬(PA, F1, Arriba,1Y)]¬( PA, F1, Medio, T2)Y¬(PA,F2,Medio, T2)-> ¬[ Y ¬(PA, F1, Arriba,2Y)]¬( PA, F1, Medio, T3)Y¬(PA,F2,Medio, T3)-> ¬[ ]
+
+__________________________________________________
+¬( PB, F1, Abajo, T3)Y¬(PB,F2,Abajo, T3)Y¬(PB,F3,Abajo, T3)-> [
+¬( PA, F1, Medio, T1)Y¬(PA,F2,Medio, T1)-> ¬[ Y ¬(PA, F1, Arriba,1Y)]¬( PA, F1, Medio, T2)Y¬(PA,F2,Medio, T2)-> ¬[ Y ¬(PA, F1, Arriba,2Y)]¬( PA, F1, Medio, T3)Y¬(PA,F2,Medio, T3)-> ¬[ ]
+
+__________________________________________________
+¬( PB, F1, Abajo, T4)Y¬(PB,F2,Abajo, T4)Y¬(PB,F3,Abajo, T4)-> [
+¬( PA, F1, Medio, T1)Y¬(PA,F2,Medio, T1)-> ¬[ Y ¬(PA, F1, Arriba,1Y)]¬( PA, F1, Medio, T2)Y¬(PA,F2,Medio, T2)-> ¬[ Y ¬(PA, F1, Arriba,2Y)]¬( PA, F1, Medio, T3)Y¬(PA,F2,Medio, T3)-> ¬[ ]
+
+__________________________________________________
+¬( PB, F1, Abajo, T5)Y¬(PB,F2,Abajo, T5)Y¬(PB,F3,Abajo, T5)-> [
+¬( PA, F1, Medio, T1)Y¬(PA,F2,Medio, T1)-> ¬[ Y ¬(PA, F1, Arriba,1Y)]¬( PA, F1, Medio, T2)Y¬(PA,F2,Medio, T2)-> ¬[ Y ¬(PA, F1, Arriba,2Y)]¬( PA, F1, Medio, T3)Y¬(PA,F2,Medio, T3)-> ¬[ ]
+
+__________________________________________________
+¬( PB, F1, Abajo, T6)Y¬(PB,F2,Abajo, T6)Y¬(PB,F3,Abajo, T6)-> [
+¬( PA, F1, Medio, T1)Y¬(PA,F2,Medio, T1)-> ¬[ Y ¬(PA, F1, Arriba,1Y)]¬( PA, F1, Medio, T2)Y¬(PA,F2,Medio, T2)-> ¬[ Y ¬(PA, F1, Arriba,2Y)]¬( PA, F1, Medio, T3)Y¬(PA,F2,Medio, T3)-> ¬[ ]
+
+__________________________________________________
+¬( PB, F1, Abajo, T7)Y¬(PB,F2,Abajo, T7)Y¬(PB,F3,Abajo, T7)-> [
+¬( PA, F1, Medio, T1)Y¬(PA,F2,Medio, T1)-> ¬[ Y ¬(PA, F1, Arriba,1Y)]¬( PA, F1, Medio, T2)Y¬(PA,F2,Medio, T2)-> ¬[ Y ¬(PA, F1, Arriba,2Y)]¬( PA, F1, Medio, T3)Y¬(PA,F2,Medio, T3)-> ¬[ ]
+
+__________________________________________________
+¬( PB, F1, Abajo, T8)Y¬(PB,F2,Abajo, T8)Y¬(PB,F3,Abajo, T8)-> [
+¬( PA, F1, Medio, T1)Y¬(PA,F2,Medio, T1)-> ¬[ Y ¬(PA, F1, Arriba,1Y)]¬( PA, F1, Medio, T2)Y¬(PA,F2,Medio, T2)-> ¬[ Y ¬(PA, F1, Arriba,2Y)]¬( PA, F1, Medio, T3)Y¬(PA,F2,Medio, T3)-> ¬[ ]
+
+__________________________________________________
+¬( PC, F1, Abajo, T1)Y¬(PC,F2,Abajo, T1)Y¬(PC,F3,Abajo, T1)-> [
+¬( PA, F1, Medio, T1)Y¬(PA,F2,Medio, T1)-> ¬[ Y ¬(PA, F1, Arriba,1Y)]¬( PA, F1, Medio, T2)Y¬(PA,F2,Medio, T2)-> ¬[ Y ¬(PA, F1, Arriba,2Y)]¬( PA, F1, Medio, T3)Y¬(PA,F2,Medio, T3)-> ¬[ ]
+
+__________________________________________________
+¬( PC, F1, Abajo, T2)Y¬(PC,F2,Abajo, T2)Y¬(PC,F3,Abajo, T2)-> [
+¬( PA, F1, Medio, T1)Y¬(PA,F2,Medio, T1)-> ¬[ Y ¬(PA, F1, Arriba,1Y)]¬( PA, F1, Medio, T2)Y¬(PA,F2,Medio, T2)-> ¬[ Y ¬(PA, F1, Arriba,2Y)]¬( PA, F1, Medio, T3)Y¬(PA,F2,Medio, T3)-> ¬[ ]
+
+__________________________________________________
+¬( PC, F1, Abajo, T3)Y¬(PC,F2,Abajo, T3)Y¬(PC,F3,Abajo, T3)-> [
+¬( PA, F1, Medio, T1)Y¬(PA,F2,Medio, T1)-> ¬[ Y ¬(PA, F1, Arriba,1Y)]¬( PA, F1, Medio, T2)Y¬(PA,F2,Medio, T2)-> ¬[ Y ¬(PA, F1, Arriba,2Y)]¬( PA, F1, Medio, T3)Y¬(PA,F2,Medio, T3)-> ¬[ ]
+
+__________________________________________________
+¬( PC, F1, Abajo, T4)Y¬(PC,F2,Abajo, T4)Y¬(PC,F3,Abajo, T4)-> [
+¬( PA, F1, Medio, T1)Y¬(PA,F2,Medio, T1)-> ¬[ Y ¬(PA, F1, Arriba,1Y)]¬( PA, F1, Medio, T2)Y¬(PA,F2,Medio, T2)-> ¬[ Y ¬(PA, F1, Arriba,2Y)]¬( PA, F1, Medio, T3)Y¬(PA,F2,Medio, T3)-> ¬[ ]
+
+__________________________________________________
+¬( PC, F1, Abajo, T5)Y¬(PC,F2,Abajo, T5)Y¬(PC,F3,Abajo, T5)-> [
+¬( PA, F1, Medio, T1)Y¬(PA,F2,Medio, T1)-> ¬[ Y ¬(PA, F1, Arriba,1Y)]¬( PA, F1, Medio, T2)Y¬(PA,F2,Medio, T2)-> ¬[ Y ¬(PA, F1, Arriba,2Y)]¬( PA, F1, Medio, T3)Y¬(PA,F2,Medio, T3)-> ¬[ ]
+
+__________________________________________________
+¬( PC, F1, Abajo, T6)Y¬(PC,F2,Abajo, T6)Y¬(PC,F3,Abajo, T6)-> [
+¬( PA, F1, Medio, T1)Y¬(PA,F2,Medio, T1)-> ¬[ Y ¬(PA, F1, Arriba,1Y)]¬( PA, F1, Medio, T2)Y¬(PA,F2,Medio, T2)-> ¬[ Y ¬(PA, F1, Arriba,2Y)]¬( PA, F1, Medio, T3)Y¬(PA,F2,Medio, T3)-> ¬[ ]
+
+__________________________________________________
+¬( PC, F1, Abajo, T7)Y¬(PC,F2,Abajo, T7)Y¬(PC,F3,Abajo, T7)-> [
+¬( PA, F1, Medio, T1)Y¬(PA,F2,Medio, T1)-> ¬[ Y ¬(PA, F1, Arriba,1Y)]¬( PA, F1, Medio, T2)Y¬(PA,F2,Medio, T2)-> ¬[ Y ¬(PA, F1, Arriba,2Y)]¬( PA, F1, Medio, T3)Y¬(PA,F2,Medio, T3)-> ¬[ ]
+
+__________________________________________________
+¬( PC, F1, Abajo, T8)Y¬(PC,F2,Abajo, T8)Y¬(PC,F3,Abajo, T8)-> [
+¬( PA, F1, Medio, T1)Y¬(PA,F2,Medio, T1)-> ¬[ Y ¬(PA, F1, Arriba,1Y)]¬( PA, F1, Medio, T2)Y¬(PA,F2,Medio, T2)-> ¬[ Y ¬(PA, F1, Arriba,2Y)]¬( PA, F1, Medio, T3)Y¬(PA,F2,Medio, T3)-> ¬[ ]
+
+__________________________________________________
+¬( PA, F1, Abajo, T1)Y¬(PA,F2,Abajo, T1)Y¬(PA,F3,Abajo, T1)-> [
+¬( PA, F1, Medio, T1)Y¬(PA,F2,Medio, T1)-> ¬[ Y ¬(PA, F1, Arriba,1Y)]¬( PA, F1, Medio, T2)Y¬(PA,F2,Medio, T2)-> ¬[ Y ¬(PA, F1, Arriba,2Y)]¬( PA, F1, Medio, T3)Y¬(PA,F2,Medio, T3)-> ¬[ ]
+
+__________________________________________________
+¬( PA, F1, Abajo, T2)Y¬(PA,F2,Abajo, T2)Y¬(PA,F3,Abajo, T2)-> [
+¬( PA, F1, Medio, T1)Y¬(PA,F2,Medio, T1)-> ¬[ Y ¬(PA, F1, Arriba,1Y)]¬( PA, F1, Medio, T2)Y¬(PA,F2,Medio, T2)-> ¬[ Y ¬(PA, F1, Arriba,2Y)]¬( PA, F1, Medio, T3)Y¬(PA,F2,Medio, T3)-> ¬[ ]
+
+__________________________________________________
+¬( PA, F1, Abajo, T3)Y¬(PA,F2,Abajo, T3)Y¬(PA,F3,Abajo, T3)-> [
+¬( PA, F1, Medio, T1)Y¬(PA,F2,Medio, T1)-> ¬[ Y ¬(PA, F1, Arriba,1Y)]¬( PA, F1, Medio, T2)Y¬(PA,F2,Medio, T2)-> ¬[ Y ¬(PA, F1, Arriba,2Y)]¬( PA, F1, Medio, T3)Y¬(PA,F2,Medio, T3)-> ¬[ ]
+
+__________________________________________________
+¬( PA, F1, Abajo, T4)Y¬(PA,F2,Abajo, T4)Y¬(PA,F3,Abajo, T4)-> [
+¬( PA, F1, Medio, T1)Y¬(PA,F2,Medio, T1)-> ¬[ Y ¬(PA, F1, Arriba,1Y)]¬( PA, F1, Medio, T2)Y¬(PA,F2,Medio, T2)-> ¬[ Y ¬(PA, F1, Arriba,2Y)]¬( PA, F1, Medio, T3)Y¬(PA,F2,Medio, T3)-> ¬[ ]
+
+__________________________________________________
+¬( PA, F1, Abajo, T5)Y¬(PA,F2,Abajo, T5)Y¬(PA,F3,Abajo, T5)-> [
+¬( PA, F1, Medio, T1)Y¬(PA,F2,Medio, T1)-> ¬[ Y ¬(PA, F1, Arriba,1Y)]¬( PA, F1, Medio, T2)Y¬(PA,F2,Medio, T2)-> ¬[ Y ¬(PA, F1, Arriba,2Y)]¬( PA, F1, Medio, T3)Y¬(PA,F2,Medio, T3)-> ¬[ ]
+
+__________________________________________________
+¬( PA, F1, Abajo, T6)Y¬(PA,F2,Abajo, T6)Y¬(PA,F3,Abajo, T6)-> [
+¬( PA, F1, Medio, T1)Y¬(PA,F2,Medio, T1)-> ¬[ Y ¬(PA, F1, Arriba,1Y)]¬( PA, F1, Medio, T2)Y¬(PA,F2,Medio, T2)-> ¬[ Y ¬(PA, F1, Arriba,2Y)]¬( PA, F1, Medio, T3)Y¬(PA,F2,Medio, T3)-> ¬[ ]
+
+__________________________________________________
+¬( PA, F1, Abajo, T7)Y¬(PA,F2,Abajo, T7)Y¬(PA,F3,Abajo, T7)-> [
+¬( PA, F1, Medio, T1)Y¬(PA,F2,Medio, T1)-> ¬[ Y ¬(PA, F1, Arriba,1Y)]¬( PA, F1, Medio, T2)Y¬(PA,F2,Medio, T2)-> ¬[ Y ¬(PA, F1, Arriba,2Y)]¬( PA, F1, Medio, T3)Y¬(PA,F2,Medio, T3)-> ¬[ ]
+
+__________________________________________________
+¬( PA, F1, Abajo, T8)Y¬(PA,F2,Abajo, T8)Y¬(PA,F3,Abajo, T8)-> [
+¬( PA, F1, Medio, T1)Y¬(PA,F2,Medio, T1)-> ¬[ Y ¬(PA, F1, Arriba,1Y)]¬( PA, F1, Medio, T2)Y¬(PA,F2,Medio, T2)-> ¬[ Y ¬(PA, F1, Arriba,2Y)]¬( PA, F1, Medio, T3)Y¬(PA,F2,Medio, T3)-> ¬[ ]
+
+__________________________________________________
+¬( PB, F1, Abajo, T1)Y¬(PB,F2,Abajo, T1)Y¬(PB,F3,Abajo, T1)-> [
+¬( PA, F1, Medio, T1)Y¬(PA,F2,Medio, T1)-> ¬[ Y ¬(PA, F1, Arriba,1Y)]¬( PA, F1, Medio, T2)Y¬(PA,F2,Medio, T2)-> ¬[ Y ¬(PA, F1, Arriba,2Y)]¬( PA, F1, Medio, T3)Y¬(PA,F2,Medio, T3)-> ¬[ ]
+
+__________________________________________________
+¬( PB, F1, Abajo, T2)Y¬(PB,F2,Abajo, T2)Y¬(PB,F3,Abajo, T2)-> [
+¬( PA, F1, Medio, T1)Y¬(PA,F2,Medio, T1)-> ¬[ Y ¬(PA, F1, Arriba,1Y)]¬( PA, F1, Medio, T2)Y¬(PA,F2,Medio, T2)-> ¬[ Y ¬(PA, F1, Arriba,2Y)]¬( PA, F1, Medio, T3)Y¬(PA,F2,Medio, T3)-> ¬[ ]
+
+__________________________________________________
+¬( PB, F1, Abajo, T3)Y¬(PB,F2,Abajo, T3)Y¬(PB,F3,Abajo, T3)-> [
+¬( PA, F1, Medio, T1)Y¬(PA,F2,Medio, T1)-> ¬[ Y ¬(PA, F1, Arriba,1Y)]¬( PA, F1, Medio, T2)Y¬(PA,F2,Medio, T2)-> ¬[ Y ¬(PA, F1, Arriba,2Y)]¬( PA, F1, Medio, T3)Y¬(PA,F2,Medio, T3)-> ¬[ ]
+
+__________________________________________________
+¬( PB, F1, Abajo, T4)Y¬(PB,F2,Abajo, T4)Y¬(PB,F3,Abajo, T4)-> [
+¬( PA, F1, Medio, T1)Y¬(PA,F2,Medio, T1)-> ¬[ Y ¬(PA, F1, Arriba,1Y)]¬( PA, F1, Medio, T2)Y¬(PA,F2,Medio, T2)-> ¬[ Y ¬(PA, F1, Arriba,2Y)]¬( PA, F1, Medio, T3)Y¬(PA,F2,Medio, T3)-> ¬[ ]
+
+__________________________________________________
+¬( PB, F1, Abajo, T5)Y¬(PB,F2,Abajo, T5)Y¬(PB,F3,Abajo, T5)-> [
+¬( PA, F1, Medio, T1)Y¬(PA,F2,Medio, T1)-> ¬[ Y ¬(PA, F1, Arriba,1Y)]¬( PA, F1, Medio, T2)Y¬(PA,F2,Medio, T2)-> ¬[ Y ¬(PA, F1, Arriba,2Y)]¬( PA, F1, Medio, T3)Y¬(PA,F2,Medio, T3)-> ¬[ ]
+
+__________________________________________________
+¬( PB, F1, Abajo, T6)Y¬(PB,F2,Abajo, T6)Y¬(PB,F3,Abajo, T6)-> [
+¬( PA, F1, Medio, T1)Y¬(PA,F2,Medio, T1)-> ¬[ Y ¬(PA, F1, Arriba,1Y)]¬( PA, F1, Medio, T2)Y¬(PA,F2,Medio, T2)-> ¬[ Y ¬(PA, F1, Arriba,2Y)]¬( PA, F1, Medio, T3)Y¬(PA,F2,Medio, T3)-> ¬[ ]
+
+__________________________________________________
+¬( PB, F1, Abajo, T7)Y¬(PB,F2,Abajo, T7)Y¬(PB,F3,Abajo, T7)-> [
+¬( PA, F1, Medio, T1)Y¬(PA,F2,Medio, T1)-> ¬[ Y ¬(PA, F1, Arriba,1Y)]¬( PA, F1, Medio, T2)Y¬(PA,F2,Medio, T2)-> ¬[ Y ¬(PA, F1, Arriba,2Y)]¬( PA, F1, Medio, T3)Y¬(PA,F2,Medio, T3)-> ¬[ ]
+
+__________________________________________________
+¬( PB, F1, Abajo, T8)Y¬(PB,F2,Abajo, T8)Y¬(PB,F3,Abajo, T8)-> [
+¬( PA, F1, Medio, T1)Y¬(PA,F2,Medio, T1)-> ¬[ Y ¬(PA, F1, Arriba,1Y)]¬( PA, F1, Medio, T2)Y¬(PA,F2,Medio, T2)-> ¬[ Y ¬(PA, F1, Arriba,2Y)]¬( PA, F1, Medio, T3)Y¬(PA,F2,Medio, T3)-> ¬[ ]
+
+__________________________________________________
+¬( PC, F1, Abajo, T1)Y¬(PC,F2,Abajo, T1)Y¬(PC,F3,Abajo, T1)-> [
+¬( PA, F1, Medio, T1)Y¬(PA,F2,Medio, T1)-> ¬[ Y ¬(PA, F1, Arriba,1Y)]¬( PA, F1, Medio, T2)Y¬(PA,F2,Medio, T2)-> ¬[ Y ¬(PA, F1, Arriba,2Y)]¬( PA, F1, Medio, T3)Y¬(PA,F2,Medio, T3)-> ¬[ ]
+
+__________________________________________________
+¬( PC, F1, Abajo, T2)Y¬(PC,F2,Abajo, T2)Y¬(PC,F3,Abajo, T2)-> [
+¬( PA, F1, Medio, T1)Y¬(PA,F2,Medio, T1)-> ¬[ Y ¬(PA, F1, Arriba,1Y)]¬( PA, F1, Medio, T2)Y¬(PA,F2,Medio, T2)-> ¬[ Y ¬(PA, F1, Arriba,2Y)]¬( PA, F1, Medio, T3)Y¬(PA,F2,Medio, T3)-> ¬[ ]
+
+__________________________________________________
+¬( PC, F1, Abajo, T3)Y¬(PC,F2,Abajo, T3)Y¬(PC,F3,Abajo, T3)-> [
+¬( PA, F1, Medio, T1)Y¬(PA,F2,Medio, T1)-> ¬[ Y ¬(PA, F1, Arriba,1Y)]¬( PA, F1, Medio, T2)Y¬(PA,F2,Medio, T2)-> ¬[ Y ¬(PA, F1, Arriba,2Y)]¬( PA, F1, Medio, T3)Y¬(PA,F2,Medio, T3)-> ¬[ ]
+
+__________________________________________________
+¬( PC, F1, Abajo, T4)Y¬(PC,F2,Abajo, T4)Y¬(PC,F3,Abajo, T4)-> [
+¬( PA, F1, Medio, T1)Y¬(PA,F2,Medio, T1)-> ¬[ Y ¬(PA, F1, Arriba,1Y)]¬( PA, F1, Medio, T2)Y¬(PA,F2,Medio, T2)-> ¬[ Y ¬(PA, F1, Arriba,2Y)]¬( PA, F1, Medio, T3)Y¬(PA,F2,Medio, T3)-> ¬[ ]
+
+__________________________________________________
+¬( PC, F1, Abajo, T5)Y¬(PC,F2,Abajo, T5)Y¬(PC,F3,Abajo, T5)-> [
+¬( PA, F1, Medio, T1)Y¬(PA,F2,Medio, T1)-> ¬[ Y ¬(PA, F1, Arriba,1Y)]¬( PA, F1, Medio, T2)Y¬(PA,F2,Medio, T2)-> ¬[ Y ¬(PA, F1, Arriba,2Y)]¬( PA, F1, Medio, T3)Y¬(PA,F2,Medio, T3)-> ¬[ ]
+
+__________________________________________________
+¬( PC, F1, Abajo, T6)Y¬(PC,F2,Abajo, T6)Y¬(PC,F3,Abajo, T6)-> [
+¬( PA, F1, Medio, T1)Y¬(PA,F2,Medio, T1)-> ¬[ Y ¬(PA, F1, Arriba,1Y)]¬( PA, F1, Medio, T2)Y¬(PA,F2,Medio, T2)-> ¬[ Y ¬(PA, F1, Arriba,2Y)]¬( PA, F1, Medio, T3)Y¬(PA,F2,Medio, T3)-> ¬[ ]
+
+__________________________________________________
+¬( PC, F1, Abajo, T7)Y¬(PC,F2,Abajo, T7)Y¬(PC,F3,Abajo, T7)-> [
+¬( PA, F1, Medio, T1)Y¬(PA,F2,Medio, T1)-> ¬[ Y ¬(PA, F1, Arriba,1Y)]¬( PA, F1, Medio, T2)Y¬(PA,F2,Medio, T2)-> ¬[ Y ¬(PA, F1, Arriba,2Y)]¬( PA, F1, Medio, T3)Y¬(PA,F2,Medio, T3)-> ¬[ ]
+
+__________________________________________________
+¬( PC, F1, Abajo, T8)Y¬(PC,F2,Abajo, T8)Y¬(PC,F3,Abajo, T8)-> [
+¬( PA, F1, Medio, T1)Y¬(PA,F2,Medio, T1)-> ¬[ Y ¬(PA, F1, Arriba,1Y)]¬( PA, F1, Medio, T2)Y¬(PA,F2,Medio, T2)-> ¬[ Y ¬(PA, F1, Arriba,2Y)]¬( PA, F1, Medio, T3)Y¬(PA,F2,Medio, T3)-> ¬[ ]
+
+__________________________________________________
