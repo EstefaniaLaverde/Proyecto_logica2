@@ -1,2 +1,3 @@
-# Proyecto_logica2
+# Torres de Hanoi
+Proyecto para Lógica 2
  
