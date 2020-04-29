@@ -3,8 +3,8 @@ class Tree:
         self.label=label
         self.left=left
         self.right=right
-   
-#SE CREAN TODAS LAS INTERPRETACIONES POSIBLES SEGÚN UN NÚMERO DE LETRAS PROPOSICIONALES DETERMINADAS     
+
+#SE CREAN TODAS LAS INTERPRETACIONES POSIBLES SEGÚN UN NÚMERO DE LETRAS PROPOSICIONALES DETERMINADAS
 letrasProposicionales = ['p','q']
 interps = []#Lista con todos los diccionaros de interpretacion posible
 aux = {}
@@ -20,9 +20,9 @@ for a in letrasProposicionales:
             if a==b:
                 aux1[b]=1-i[b]
             else:
-                aux1[b]=i[b]         
+                aux1[b]=i[b]
         interps.append(aux1)
-        
+
 #Valuación de un árbol
 def V(A:Tree):
     if A.right == None:
@@ -48,14 +48,14 @@ def V(A:Tree):
 def print_verdadero(A:Tree):
     for i in interps:
         if V(A)==1:
-           return(i) 
-           
+           return(i)
+
 #FUNCIÓN QUE RETORNA LAS INTERPRETACIONES PARA LAS QUE LA V(A) ES 0
 def print_falso(A:Tree):
     for i in interps:
         if V(A)==0:
            return(i)
-           
+
 #FUNCIÓN QUE TRANSFORMA UNA FORMULA NORMAL A UNA POLACA
 def polaca(A:Tree):
     if A.right==None:
@@ -64,7 +64,7 @@ def polaca(A:Tree):
         return '¬'+polaca(A.right)
     else:
         return A.label+polaca(A.left)+polaca(A.right)
-    
+
 #FUNCIÓN QUE TRANSFORMA UNA FORMULA NORMAL A LA POLACA INVERSA
 def polaca_inversa(A:Tree):
     if A.right==None:
@@ -73,9 +73,33 @@ def polaca_inversa(A:Tree):
         return polaca_inversa(A.right)+'¬'
     else:
         return 'Y'+polaca_inversa(A.right)+polaca_inversa(A.left)
-    
-    
-    
-    
-    
-    
+
+
+#=======================EJERCICIOS DE CLASE============================
+#EJERCICIO 3a
+A = Tree('>',Tree('p',None, None),Tree('>',Tree('¬',None,Tree('p',None, None)),Tree('q',None,None)))
+
+for i in interps:
+    if (V(A)==1):
+        print("Verdadero para ",'\n', i)
+    else:
+        print("Falso para ",'\n', i)
+print("-------------------------")
+#EJERCICIO 3b
+
+B = Tree('Y',Tree('¬',None,Tree('p',None,None)),Tree('q',None,None))
+for i in interps:
+    I=i
+    if V(B)==1:
+        print("Verdadero para ",'\n', i)
+    else:
+        print("Falso para ",'\n', i)
+print("-------------------------")
+#Ejercicio 3c
+C =Tree('Y',Tree('Y',Tree('¬',None,Tree('p',None,None)),Tree('>',Tree('¬',None,Tree('p',None,None)),Tree('¬',None,Tree('q',None,None)))),Tree('q',None,None))
+for i in interps:
+    if V(C)==1:
+        print("Verdadero para ",'\n', i)
+    else:
+        print("Falso para ",'\n', i)
+print("-------------------------")     
