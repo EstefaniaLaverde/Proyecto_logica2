@@ -25,7 +25,7 @@ def decodifica(x, Nf, Nc):
         f = int(n / Nc) + 1
         c = n % Nc + 1
         return f, c
-    
+
 
 # Codificacion y decodificacion de una tabla
 # de Nf filas y Nc columnas
@@ -45,4 +45,3 @@ n = codifica(fila, columna)
 print("La codificacion es", n)
 f, c = decodifica(n, Nf, Nc)
 print("La decodificacion es fila", f, "columna", c)
-
