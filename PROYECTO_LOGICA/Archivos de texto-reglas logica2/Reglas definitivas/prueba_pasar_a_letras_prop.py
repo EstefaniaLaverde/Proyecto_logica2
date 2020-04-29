@@ -41,7 +41,8 @@ for p in ficha_2:
 for p in ficha_3:
     lista_letras_largas.append(p)
 
-print(len(lista_letras_largas))
+
+letras=['J', 'ħ', 'ί', 'ζ', 'É', 'j', 'Ắ', 'Ớ', 'Ẁ', 'Ī', 'ř', 'Ķ', 'Ễ', 'ớ', 'э', 'ⁿ', 'Ā', 'ы', 'c', 'ü', 'Ô', 'ł', 'K', 'đ', 'Ó', 'ь', 'Ŀ', 'Ề', 'Ð', 'ó', 'Ч', 'q', 'Ľ', 'Ј', 'ć', 'ý', 'ų', 'С', 'Р', 'o', 'Ę', 'Ҝ', 'у', 'В', 'H', 'Θ', 'О', 'ĉ', 'ν', 'Ң', 'А', 'z', 'ự', 'η', 'Ẵ', 'ẃ', 'ŷ', 'х', 'œ', 'Ä', '฿', 'Ằ', 'Ŏ', 'Ď', 'ј', 'ē', 'Z', 'ử', 'Ο', 'Ў', 'Ό', 'М', 'Ε', 'ŏ', 'Є', 'н', 'Ђ', 'ŵ', 'қ', 'Ŝ', 'ņ', 'д', 'п', 'Ö', 'Қ', 'Б', 'Ν', 'Ể', 'т', 'Ĺ', 'с', 'Ů', 'Џ', 'Х', 'h', 'Â', 'ї', 'Ò', '£', 'μ', 'Ă', 'Ặ', 'Ѓ', 'Ζ', 'о', 'ã', 'ĩ', 'ằ', 'ọ', 'Ŭ', 'ς', 'Ù', 'ð', 'Ъ', 'ö', 'Ҳ', 'Ç', 'n', 'ο', 'ů', 'è', 'Į', 'Ẃ', 'Μ', 'Á', 'Č', 'ŋ', 'υ', 'β', 'ī', 'Ş', 't', 'ª', 'ž', 'κ', 'ш', 'G', 'Í', 'Ї', '∑', 'ĸ', 'Ќ', 'ђ', 'Ģ']
 
 def crear_diccionario(lista_prop, lista_letra):
     #lista_prop tiene la letra larga (PA, 1, Medio, 3), y lista_letra tiene un char
@@ -52,3 +53,8 @@ def crear_diccionario(lista_prop, lista_letra):
         dicc_letras[lista_prop[i]]=lista_letra[i]
         i+=1;
     return dicc_letras
+
+
+Diccionario_final=crear_diccionario(lista_letras_largas, letras)
+#print(len(Diccionario_final))
+#print(Diccionario_final)
