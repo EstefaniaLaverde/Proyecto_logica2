@@ -1,7 +1,5 @@
-#"""CREAR EL DICCIONARIO PARA LAS REGLAS"""
+"""FUNCIÓN PARA CREAR EL DICCIONARIO PARA LAS REGLAS"""
 
-archivo=open("Regla_3.txt","r")
-l=archivo.readlines()
 
 Posiciones=["Arriba","Medio","Abajo"]
 Palos=["PA","PB","PC"]
@@ -55,6 +53,50 @@ def crear_diccionario(lista_prop, lista_letra):
     return dicc_letras
 
 
-Diccionario_final=crear_diccionario(lista_letras_largas, letras)
+Diccionario_final=crear_diccionario(lista_letras_largas, letras) #Aquí guardo el diccionario que voy a usar para cambiar las letras en las reglas
 #print(len(Diccionario_final))
 #print(Diccionario_final)
+
+
+"""FUNCIÓNES PARA TRANSFORMAR REGLAS A ARBOLES"""
+
+def letras_largas_a_char(regla, diccionario_traducci):
+    #input: un string con toda la regla y el diccionario para cambiar las letras
+    #output: la misma regla pero con las nuevas letras proposicionales de un caracter.
+
+    #Elimino los espacios si hay alguno
+    regla=regla.replace(" ", "")
+    long_regla=len(regla)
+    contador=0
+
+    while contador<long_regla:
+        if(contador==len(regla)):
+            break
+        else:
+            if regla[contador]=="(" and regla[contador+1]=="P": #Si está iniciando una letra proposicional (P....)
+
+                if regla[contador+10]=="b": #Como arriba tiene más letras que medio y abajo toca hacer una distinción
+                    letra_prop_larga=regla[contador:contador+15]
+                    nueva_letra=diccionario_traducci[letra_prop_larga]
+
+                    regla=regla[0:contador]+nueva_letra+regla[contador+15:]
+
+                else: #Si la proposición contiene abajo o medio
+                    letra_prop_larga=regla[contador:contador+14]
+                    nueva_letra=diccionario_traducci[letra_prop_larga]
+
+                    regla=regla[0:contador]+nueva_letra+regla[contador+14:]
+
+            contador+=1
+
+    return regla
+
+
+
+"""Prueba de la función"""
+regla_test="((PA, 1, Arriba, 6)Y((PA ,1 ,Medio ,2)Y(PB,1,Abajo,7)))"
+print("Regla inicial: ",regla_test)
+nueva_regla=letras_largas_a_char(regla_test,Diccionario_final)
+
+print("Regla final: ",nueva_regla)
+"""FUNCIONA!!"""
