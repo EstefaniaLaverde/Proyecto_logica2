@@ -6,13 +6,13 @@ def REGLA2():
     count=1
     Posiciones=["Arriba","Medio","Abajo"]
     Palos=["PA","PB","PC"]
-    Fichas=["F1","F2","F3"]
+    Fichas=["1","2","3"]
     Turnos=["1","2","3","4","5","6","7","8"]
     i=0
     while i<8:
         for PX in Palos:
             for T in Turnos:
-                W="[¬("+PX+","+ "F1" +", "+ "Abajo" +","+ T +")"+"Y¬("+PX+","+"F2,"+"Abajo,"+T+")"+"Y¬("+PX+","+"F3,"+"Abajo,"+T+")->"+"["
+                W="[-("+PX+","+ "F1" +", "+ "Abajo" +","+ T +")"+"Y-("+PX+","+"F2,"+"Abajo,"+T+")"+"Y-("+PX+","+"F3,"+"Abajo,"+T+")->"+"["
                 archivo.write(W)
                 archivo.write("\n")
         i+=1
@@ -24,7 +24,7 @@ def REGLA2():
     while j<8:
         for PX in Palos:
             for T in Turnos:
-                WW="¬("+PX+","+ "F1" +","+ "Medio" +","+ T +")"+"Y¬("+PX+","+"F2,"+"Medio,"+T+")"+" Y ¬("+PX+",F1, Arriba,"+T+")]]Y"
+                WW="-("+PX+","+ "F1" +","+ "Medio" +","+ T +")"+"Y-("+PX+","+"F2,"+"Medio,"+T+")"+" Y -("+PX+",F1, Arriba,"+T+")]]Y"
                 archivo2.write(WW)
                 archivo2.write("\n")
         j+=1
@@ -70,7 +70,7 @@ def REGLA3():
 
     for T in Turnos:
         for PX in Palos:
-            W="("+PX+",F1,Abajo,"+T+")<>¬("+PX+",F2,Medio,"+T+")Y"
+            W="("+PX+",F1,Abajo,"+T+")<>-("+PX+",F2,Medio,"+T+")Y"
             archivo.write(W)
             archivo.write("\n")
 
@@ -83,7 +83,7 @@ def REGLA3():
     for l in range(len(x)):
 
         if l==len(x)-1:
-            new_line="("+"PC"+",F1,Abajo,"+"8"+")<>¬("+"PC"+",F2,Medio,"+"8"+")"
+            new_line="("+"PC"+",F1,Abajo,"+"8"+")<>-("+"PC"+",F2,Medio,"+"8"+")"
             regla3.append(new_line)
         else:
             regla3.append(x[l])
@@ -241,11 +241,11 @@ def REGLA4():
     archivo.write("[")
     while ind<7:
         if ind<6:
-            h="[¬"+datos1[ind]+">"+"("+datos2[ind]+"Y"+datos3[ind]+")Y¬"+datos2[ind]+">"+"("+datos1[ind]+"Y"+datos3[ind]+")Y¬"+datos3[ind]+"("+datos1[ind]+"Y"+datos2[ind]+")]Y"+'\n'+'\n'
+            h="[-"+datos1[ind]+">"+"("+datos2[ind]+"Y"+datos3[ind]+")Y-"+datos2[ind]+">"+"("+datos1[ind]+"Y"+datos3[ind]+")Y-"+datos3[ind]+"("+datos1[ind]+"Y"+datos2[ind]+")]Y"+'\n'+'\n'
             test_regla4.append(h)
             ind+=1
         else:
-            h="[¬"+datos1[ind]+">"+"("+datos2[ind]+"Y"+datos3[ind]+")Y¬"+datos2[ind]+">"+"("+datos1[ind]+"Y"+datos3[ind]+")Y¬"+datos3[ind]+"("+datos1[ind]+"Y"+datos2[ind]+")]]"+'\n'+'\n'
+            h="[-"+datos1[ind]+">"+"("+datos2[ind]+"Y"+datos3[ind]+")Y-"+datos2[ind]+">"+"("+datos1[ind]+"Y"+datos3[ind]+")Y-"+datos3[ind]+"("+datos1[ind]+"Y"+datos2[ind]+")]]"+'\n'+'\n'
             test_regla4.append(h)
             ind+=1
     print("len(test_regla4)= ",len(test_regla4))

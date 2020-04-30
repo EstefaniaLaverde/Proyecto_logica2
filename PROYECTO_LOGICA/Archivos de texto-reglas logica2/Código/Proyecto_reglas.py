@@ -42,7 +42,7 @@ for turno in turnos:
 
 PaloBC=["PB","PC"]
 R=""
-b="P(1,arriba,PA,1)->¬"
+b="P(1,arriba,PA,1)->-"
 R=R+b
 for pos in posiciones:
     for p in PaloBC:

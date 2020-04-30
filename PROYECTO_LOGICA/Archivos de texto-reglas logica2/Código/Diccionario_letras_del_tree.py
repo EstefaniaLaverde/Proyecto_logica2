@@ -66,6 +66,12 @@ def letras_largas_a_char(regla, diccionario_traducci):
 
     #Elimino los espacios si hay alguno
     regla=regla.replace(" ", "")
+    #Elimino "[]" si hay alguno y los cambio por "()"
+    regla=regla.replace("[","(")
+    regla=regla.replace("]",")")
+    #Elimino los saltos de linea
+    regla=regla.rstrip('\n')
+
     long_regla=len(regla)
     contador=0
 
@@ -94,9 +100,32 @@ def letras_largas_a_char(regla, diccionario_traducci):
 
 
 """Prueba de la función"""
-regla_test="((PA, 1, Arriba, 6)Y((PA ,1 ,Medio ,2)Y(PB,1,Abajo,7)))"
-print("Regla inicial: ",regla_test)
-nueva_regla=letras_largas_a_char(regla_test,Diccionario_final)
+#regla_test="((PA, 1, Arriba, 6)Y((PA ,1 ,Medio ,2)Y(PB,1,Abajo,7)))"
+#print("Regla inicial: ",regla_test)
+#nueva_regla=letras_largas_a_char(regla_test,Diccionario_final)
 
-print("Regla final: ",nueva_regla)
+#print("Regla final: ",nueva_regla)
 """FUNCIONA!!"""
+
+
+"""Prueba de la función para un archivo real: Regla_3_test.txt"""
+def preparar_regla_para_cambiar_letras(archivo_de_texto):
+    #input: archivo de texto con la regla. El archivo debe tener la siguiente forma: "ejemplo.txt"
+    #output: string con la regla sin saltos de linea
+    archivo_test=open(archivo_de_texto,"r")
+    lineas=archivo_test.readlines()
+
+    str_regla=""
+
+    for linea in lineas:
+        str_regla+=linea#[:-1].rstrip('\n')
+
+    str_regla=str_regla.rstrip('\n')
+
+    archivo_test.close()
+    return str_regla
+
+regla_lista=preparar_regla_para_cambiar_letras("Regla_3_test.txt")
+regla_3_nuevos_char=letras_largas_a_char(regla_lista, Diccionario_final)
+
+print(regla_3_nuevos_char)

@@ -41,7 +41,7 @@ while i<8:
                     break
                 elif F=="F3" and P == "Medio":
                     break
-                W="( "+PX+", "+ F +", "+ P +", T"+ Turnos[i] +")"+" -> ¬["
+                W="( "+PX+", "+ F +", "+ P +", T"+ Turnos[i] +")"+" -> -["
                 archivo.write(W)
                 archivo.write("\n")
     i+=1

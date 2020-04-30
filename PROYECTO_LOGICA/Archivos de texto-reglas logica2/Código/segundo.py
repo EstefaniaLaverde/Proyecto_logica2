@@ -10,7 +10,7 @@ def REGLA2():
     while i<8:
         for PX in Palos:
             for T in Turnos:
-                W="[¬("+PX+","+ "F1" +", "+ "Abajo" +","+ T +")"+"Y¬("+PX+","+"F2,"+"Abajo,"+T+")"+"Y¬("+PX+","+"F3,"+"Abajo,"+T+")->"+"["
+                W="[-("+PX+","+ "F1" +", "+ "Abajo" +","+ T +")"+"Y-("+PX+","+"F2,"+"Abajo,"+T+")"+"Y-("+PX+","+"F3,"+"Abajo,"+T+")->"+"["
                 archivo.write(W)
                 archivo.write("\n")
         i+=1
@@ -22,7 +22,7 @@ def REGLA2():
     while j<8:
         for PX in Palos:
             for T in Turnos:
-                WW="¬("+PX+","+ "F1" +","+ "Medio" +","+ T +")"+"Y¬("+PX+","+"F2,"+"Medio,"+T+")"+" Y ¬("+PX+",F1, Arriba,"+T+")]]Y"
+                WW="-("+PX+","+ "F1" +","+ "Medio" +","+ T +")"+"Y-("+PX+","+"F2,"+"Medio,"+T+")"+" Y -("+PX+",F1, Arriba,"+T+")]]Y"
                 archivo2.write(WW)
                 archivo2.write("\n")
         j+=1

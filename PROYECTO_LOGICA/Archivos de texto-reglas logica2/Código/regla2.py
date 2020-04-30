@@ -16,7 +16,7 @@ while i<8:
                     break
                 elif F=="F3" and P == "Medio":
                     break
-                W="( "+PX+", "+ F +", "+ Posiciones[i] +", T"+ T +")"+"-> ¬["
+                W="( "+PX+", "+ F +", "+ Posiciones[i] +", T"+ T +")"+"-> -["
                 archivo.write(W)
                 archivo.write("\n")
     i+=1

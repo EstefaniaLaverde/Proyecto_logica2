@@ -142,11 +142,11 @@ def REGLA4():
     archivo.write("[")
     while ind<7:
         if ind<6:
-            h="[¬"+datos1[ind]+">"+"("+datos2[ind]+"Y"+datos3[ind]+")Y¬"+datos2[ind]+">"+"("+datos1[ind]+"Y"+datos3[ind]+")Y¬"+datos3[ind]+"("+datos1[ind]+"Y"+datos2[ind]+")]Y"+'\n'+'\n'
+            h="[-"+datos1[ind]+">"+"("+datos2[ind]+"Y"+datos3[ind]+")Y-"+datos2[ind]+">"+"("+datos1[ind]+"Y"+datos3[ind]+")Y-"+datos3[ind]+"("+datos1[ind]+"Y"+datos2[ind]+")]Y"+'\n'+'\n'
             test_regla4.append(h)
             ind+=1
         else:
-            h="[¬"+datos1[ind]+">"+"("+datos2[ind]+"Y"+datos3[ind]+")Y¬"+datos2[ind]+">"+"("+datos1[ind]+"Y"+datos3[ind]+")Y¬"+datos3[ind]+"("+datos1[ind]+"Y"+datos2[ind]+")]]"+'\n'+'\n'
+            h="[-"+datos1[ind]+">"+"("+datos2[ind]+"Y"+datos3[ind]+")Y-"+datos2[ind]+">"+"("+datos1[ind]+"Y"+datos3[ind]+")Y-"+datos3[ind]+"("+datos1[ind]+"Y"+datos2[ind]+")]]"+'\n'+'\n'
             test_regla4.append(h)
             ind+=1
     print("len(test_regla4)= ",len(test_regla4))

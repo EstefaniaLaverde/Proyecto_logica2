@@ -27,7 +27,7 @@ for a in letrasProposicionales:
 def V(A:Tree):
     if A.right == None:
         return i[A.label]
-    elif A.label == '¬':
+    elif A.label == '-':
         return 1-V(A.right)
     elif A.label=='Y':
         return V(A.left)*V(A.right)
@@ -61,7 +61,7 @@ def polaca(A:Tree):
     if A.right==None:
         return A.label
     elif A.left==None:
-        return '¬'+polaca(A.right)
+        return '-'+polaca(A.right)
     else:
         return A.label+polaca(A.left)+polaca(A.right)
 
@@ -70,14 +70,14 @@ def polaca_inversa(A:Tree):
     if A.right==None:
         return A.label
     elif A.left==None:
-        return polaca_inversa(A.right)+'¬'
+        return polaca_inversa(A.right)+'-'
     else:
         return 'Y'+polaca_inversa(A.right)+polaca_inversa(A.left)
 
 
 #=======================EJERCICIOS DE CLASE============================
 #EJERCICIO 3a
-A = Tree('>',Tree('p',None, None),Tree('>',Tree('¬',None,Tree('p',None, None)),Tree('q',None,None)))
+A = Tree('>',Tree('p',None, None),Tree('>',Tree('-',None,Tree('p',None, None)),Tree('q',None,None)))
 
 for i in interps:
     if (V(A)==1):
@@ -87,7 +87,7 @@ for i in interps:
 print("-------------------------")
 #EJERCICIO 3b
 
-B = Tree('Y',Tree('¬',None,Tree('p',None,None)),Tree('q',None,None))
+B = Tree('Y',Tree('-',None,Tree('p',None,None)),Tree('q',None,None))
 for i in interps:
     I=i
     if V(B)==1:
@@ -96,7 +96,7 @@ for i in interps:
         print("Falso para ",'\n', i)
 print("-------------------------")
 #Ejercicio 3c
-C =Tree('Y',Tree('Y',Tree('¬',None,Tree('p',None,None)),Tree('>',Tree('¬',None,Tree('p',None,None)),Tree('¬',None,Tree('q',None,None)))),Tree('q',None,None))
+C =Tree('Y',Tree('Y',Tree('-',None,Tree('p',None,None)),Tree('>',Tree('-',None,Tree('p',None,None)),Tree('-',None,Tree('q',None,None)))),Tree('q',None,None))
 for i in interps:
     if V(C)==1:
         print("Verdadero para ",'\n', i)

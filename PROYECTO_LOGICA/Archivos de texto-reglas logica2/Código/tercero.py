@@ -8,7 +8,7 @@ def REGLA3():
 
     for T in Turnos:
         for PX in Palos:
-            W="("+PX+",F1,Abajo,"+T+")<>¬("+PX+",F2,Medio,"+T+")Y"
+            W="("+PX+",F1,Abajo,"+T+")<>-("+PX+",F2,Medio,"+T+")Y"
             archivo.write(W)
             archivo.write("\n")
 
@@ -21,7 +21,7 @@ def REGLA3():
     for l in range(len(x)):
 
         if l==len(x)-1:
-            new_line="("+"PC"+",F1,Abajo,"+"8"+")<>¬("+"PC"+",F2,Medio,"+"8"+")"
+            new_line="("+"PC"+",F1,Abajo,"+"8"+")<>-("+"PC"+",F2,Medio,"+"8"+")"
             regla3.append(new_line)
         else:
             regla3.append(x[l])
