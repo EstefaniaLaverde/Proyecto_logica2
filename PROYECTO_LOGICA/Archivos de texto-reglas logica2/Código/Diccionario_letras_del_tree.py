@@ -1,4 +1,4 @@
-"""FUNCIÓN PARA CREAR EL DICCIONARIO PARA LAS REGLAS"""
+"""=====FUNCIONES PARA PASAR LAS REGLAS A ARBOLES====="""
 
 
 Posiciones=["Arriba","Medio","Abajo"]
@@ -41,6 +41,10 @@ for p in ficha_3:
 
 
 letras=['J', 'ħ', 'ί', 'ζ', 'É', 'j', 'Ắ', 'Ớ', 'Ẁ', 'Ī', 'ř', 'Ķ', 'Ễ', 'ớ', 'э', 'ⁿ', 'Ā', 'ы', 'c', 'ü', 'Ô', 'ł', 'K', 'đ', 'Ó', 'ь', 'Ŀ', 'Ề', 'Ð', 'ó', 'Ч', 'q', 'Ľ', 'Ј', 'ć', 'ý', 'ų', 'С', 'Р', 'o', 'Ę', 'Ҝ', 'у', 'В', 'H', 'Θ', 'О', 'ĉ', 'ν', 'Ң', 'А', 'z', 'ự', 'η', 'Ẵ', 'ẃ', 'ŷ', 'х', 'œ', 'Ä', '฿', 'Ằ', 'Ŏ', 'Ď', 'ј', 'ē', 'Z', 'ử', 'Ο', 'Ў', 'Ό', 'М', 'Ε', 'ŏ', 'Є', 'н', 'Ђ', 'ŵ', 'қ', 'Ŝ', 'ņ', 'д', 'п', 'Ö', 'Қ', 'Б', 'Ν', 'Ể', 'т', 'Ĺ', 'с', 'Ů', 'Џ', 'Х', 'h', 'Â', 'ї', 'Ò', '£', 'μ', 'Ă', 'Ặ', 'Ѓ', 'Ζ', 'о', 'ã', 'ĩ', 'ằ', 'ọ', 'Ŭ', 'ς', 'Ù', 'ð', 'Ъ', 'ö', 'Ҳ', 'Ç', 'n', 'ο', 'ů', 'è', 'Į', 'Ẃ', 'Μ', 'Á', 'Č', 'ŋ', 'υ', 'β', 'ī', 'Ş', 't', 'ª', 'ž', 'κ', 'ш', 'G', 'Í', 'Ї', '∑', 'ĸ', 'Ќ', 'ђ', 'Ģ']
+
+
+
+"""FUNCIÓN QUE CREA EL DICCIONARIO FINAL CON LAS LETRAS PROPOSICIONALES"""
 
 def crear_diccionario(lista_prop, lista_letra):
     #lista_prop tiene la letra larga (PA, 1, Medio, 3), y lista_letra tiene un char
@@ -99,33 +103,45 @@ def letras_largas_a_char(regla, diccionario_traducci):
 
 
 
-"""Prueba de la función"""
+#"""Prueba de la función"""
 #regla_test="((PA, 1, Arriba, 6)Y((PA ,1 ,Medio ,2)Y(PB,1,Abajo,7)))"
 #print("Regla inicial: ",regla_test)
 #nueva_regla=letras_largas_a_char(regla_test,Diccionario_final)
 
 #print("Regla final: ",nueva_regla)
-"""FUNCIONA!!"""
+#"""FUNCIONA!!"""
 
 
-"""Prueba de la función para un archivo real: Regla_3_test.txt"""
+"""FUNCIÓN QUE PREPARA LA REGLA PARA CAMBIARLE LAS LETRAS"""
+
 def preparar_regla_para_cambiar_letras(archivo_de_texto):
     #input: archivo de texto con la regla. El archivo debe tener la siguiente forma: "ejemplo.txt"
     #output: string con la regla sin saltos de linea
-    archivo_test=open(archivo_de_texto,"r")
-    lineas=archivo_test.readlines()
+    archivo=open(archivo_de_texto,"r")
+    lineas=archivo.readlines()
 
     str_regla=""
 
     for linea in lineas:
-        str_regla+=linea#[:-1].rstrip('\n')
+        contador=0
+        while contador<len(linea):
+            if contador==len(linea):
+                contador=0
+                break
+            else:
+                if linea[contador]=='\n':
+                    linea=linea[:contador]+linea[contador+1:]
+                contador+=1
 
-    str_regla=str_regla.rstrip('\n')
+        str_regla+=linea
 
-    archivo_test.close()
+    str_regla=str_regla.strip()
+    archivo.close()
     return str_regla
 
-regla_lista=preparar_regla_para_cambiar_letras("Regla_3_test.txt")
-regla_3_nuevos_char=letras_largas_a_char(regla_lista, Diccionario_final)
 
-print(regla_3_nuevos_char)
+#"""Prueba de la función""""
+#regla_lista=preparar_regla_para_cambiar_letras("Regla_5_test.txt")
+#regla_nuevos_char=letras_largas_a_char(regla_lista, Diccionario_final)
+
+#print(regla_nuevos_char)
