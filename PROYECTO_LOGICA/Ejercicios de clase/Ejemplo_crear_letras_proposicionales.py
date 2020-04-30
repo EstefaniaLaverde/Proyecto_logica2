@@ -5,11 +5,11 @@
 
 letras_prop=[chr(i) for i in range(97, 157)]#Se crean las letras proposicionales, 60 en total
 
-    
+
 # Reglas del juego:
 #   1. Solo se puede mover un cilindro a la vez
 #   2. No puede haber un cilindro de mayor radio encima de uno de menor radio
-    
+
 #1.
 regla1=' '
 inicial = True # Para inicializar la primera conjuncion
@@ -20,7 +20,7 @@ for p in letras_prop:
     for q in aux1:
         aux2 = [x for x in aux2 if x != q] # Todas las letras excepto p y q
         for r in aux2:
-            literal = r + q + p + 'Y' 
+            literal = r + q + p + 'Y'
             aux3 = [x + '-' for x in letras_prop if (x != r and x != q and x != p)]
             for k in aux3:
                 literal = k + literal + 'Y'
