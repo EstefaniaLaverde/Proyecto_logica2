@@ -146,10 +146,10 @@ def REGLA5():
         for turno in nuevos_turnos:
             for Px in Palos:
                 if ind!=6 and Px!="PC" and turno!="7":
-                    h="[[[("+Px+", 2, Abajo, "+turno+")Y("+Px+", 1, Medio, "+turno+")]>"+datos2[ind]+"]Y[[("+Px+", 3, Abajo, "+turno+")Y("+Px+", 2, Medio,"+turno+")Y("+Px+", 1, Arriba"+turno+")]>["+datos2[ind]+"Y"+datos3[ind]+"]]]Y"
+                    h="[[[("+Px+", 2, Abajo, "+turno+")Y("+Px+", 1, Medio, "+turno+")]>"+datos2[ind]+"]Y[[("+Px+", 3, Abajo, "+turno+")Y("+Px+", 2, Medio,"+turno+")Y("+Px+", 1, Arriba, "+turno+")]>["+datos2[ind]+"Y"+datos3[ind]+"]]]Y"
                     test_regla5.append(h)
                 else:
-                    h="[[[("+Px+", 2, Abajo, "+turno+")Y("+Px+", 1, Medio, "+turno+")]>"+datos2[ind]+"]Y[[("+Px+", 3, Abajo, "+turno+")Y("+Px+", 2, Medio,"+turno+")Y("+Px+", 1, Arriba"+turno+")]>["+datos2[ind]+"Y"+datos3[ind]+"]]]Y"
+                    h="[[[("+Px+", 2, Abajo, "+turno+")Y("+Px+", 1, Medio, "+turno+")]>"+datos2[ind]+"]Y[[("+Px+", 3, Abajo, "+turno+")Y("+Px+", 2, Medio,"+turno+")Y("+Px+", 1, Arriba, "+turno+")]>["+datos2[ind]+"Y"+datos3[ind]+"]]]Y"
                     test_regla5.append(h)
             ind+=1
     print("len(test_regla5)= ",len(test_regla5))
@@ -172,3 +172,5 @@ def REGLA5():
     archivo.close()
     myfile.close()
     myfile2.close()
+
+REGLA5()
