@@ -153,3 +153,17 @@ def preparar_regla_para_cambiar_letras(archivo_de_texto):
 #regla_nuevos_char=letras_largas_a_cortas(regla_lista, Diccionario_final)
 
 #print(regla_nuevos_char)
+
+
+"""FUNCIÓN PARA PASAR LAS REGLAS A UN ÁRBOL"""
+
+class Tree:
+    def __init__(self, label, left, right):
+        self.label=label
+        self.left=left
+        self.right=right
+
+def string_to_tree(Regla,letras_prop):
+    #input: string de una regla y lista de letras_prop_cortas
+    #output: Árbol que contiene la regla
+    for char
