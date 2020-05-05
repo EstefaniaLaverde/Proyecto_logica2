@@ -74,6 +74,15 @@ def polaca_inversa(A:Tree):
     else:
         return 'Y'+polaca_inversa(A.right)+polaca_inversa(A.left)
 
+#FUNCIÓN QUE CREA UNA LISTA CON LAS SUBFÓRMULAS DE UN ÁRBOL
+def subforms(A:Tree):
+    if A.right == None:
+        return [A]
+    elif A.label == "-":
+        return [A] + subforms[A.right]
+    elif A.label in A.binaryConectives:
+        return [A] + subforms[A.left] + subforms[A.right]
+
 
 #=======================EJERCICIOS DE CLASE============================
 #EJERCICIO 3a
@@ -102,4 +111,4 @@ for i in interps:
         print("Verdadero para ",'\n', i)
     else:
         print("Falso para ",'\n', i)
-print("-------------------------")     
+print("-------------------------")

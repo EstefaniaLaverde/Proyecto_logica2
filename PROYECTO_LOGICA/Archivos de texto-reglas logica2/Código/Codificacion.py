@@ -153,9 +153,21 @@ def preparar_regla_para_cambiar_letras(archivo_de_texto):
 
 
 #"""Prueba de la función""""
-#regla_lista=preparar_regla_para_cambiar_letras("Regla_5_test.txt")
-#regla_nuevos_char=letras_largas_a_cortas(regla_lista, Diccionario_final)
+regla_lista=preparar_regla_para_cambiar_letras("Regla_2_test.txt")
+regla_nuevos_char=letras_largas_a_cortas(regla_lista, Diccionario_final)
 
+print(regla_nuevos_char)
+
+
+"""FUNCIÓN PARA PASAR LAS REGLAS A UN ÁRBOL"""
+
+class Tree:
+    def __init__(self, label, left, right):
+        self.label=label
+        self.left=left
+        self.right=right
+
+<<<<<<< HEAD:PROYECTO_LOGICA/Archivos de texto-reglas logica2/Código/Codificacion.py
 #print(regla_nuevos_char)
 
 
@@ -170,3 +182,9 @@ class Tree:
 #def string_to_tree(Regla,letras_prop):
     #input: string de una regla y lista de letras_prop_cortas
     #output: Árbol que contiene la regla
+=======
+#def string_to_tree(Regla,letras_prop):
+    #input: string de una regla y lista de letras_prop_cortas
+    #output: Árbol que contiene la regla
+    #unfinished
+>>>>>>> 1422b9214cc7a80ce0b9a0160b2f8ff5251d05b1:PROYECTO_LOGICA/Archivos de texto-reglas logica2/Código/Diccionario_letras_del_tree.py
