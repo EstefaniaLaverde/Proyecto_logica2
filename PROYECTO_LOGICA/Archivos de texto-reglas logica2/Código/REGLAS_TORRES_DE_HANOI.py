@@ -1,4 +1,10 @@
+
 """ARCHIVO DONDE GUARDO LA FUNCION PARA CREAR CADA REGLAS"""
+
+import Codificacion as C
+import collections
+
+#FALTA LA REGLA 1
 
 def REGLA2():
     Posiciones=["Arriba","Medio","Abajo"]
@@ -43,13 +49,15 @@ def REGLA2():
         it+=1
 
     archivo=open("Regla_2.txt","w")
-
+    Regla2="" #AQUÍ SE GUARDA TODA LA REGLA SIN CODIFICAR
     #Pasar toda la regla a un archivo txt
     for prop in Regla_2_lista:
+        Regla2+=prop;
         archivo.write(prop)
         archivo.write('\n')
 
     archivo.close()
+    return C.CODIFICAR("Regla_2.txt")
 
 
 def REGLA3():
@@ -75,9 +83,10 @@ def REGLA3():
             Regla3+=lista_aux[i]
         i+=1
 
-    Regla3+=")" #final de la regla
+    Regla3+=")" #final de la regla-> AQUÍ SE GUARDA SIN CODIFICAR
     archivo.write(Regla3)
     archivo.close()
+    return C.CODIFICAR("Regla_3.txt")
 
 
 def REGLA4():
@@ -115,11 +124,6 @@ def REGLA4():
         archivo_def.write(linea)
         archivo_def.write('\n')
     archivo_def.close()
-    print("len(test1)= ",len(test))
-
-
-
-
 
 
 
@@ -154,11 +158,6 @@ def REGLA4():
         archivo_def2.write(linea)
         archivo_def2.write('\n')
     archivo_def2.close()
-    print("len(test2)= ",len(test2))
-
-
-
-
 
 
 
@@ -193,10 +192,6 @@ def REGLA4():
         archivo_def3.write(linea)
         archivo_def3.write('\n')
     archivo_def3.close()
-    print("len(test3)= ",len(test2))
-
-
-
 
 
     #CREADOR DE LA REGLA5
@@ -233,12 +228,20 @@ def REGLA4():
             h="[-"+datos1[ind]+">"+"("+datos2[ind]+"Y"+datos3[ind]+")Y-"+datos2[ind]+">"+"("+datos1[ind]+"Y"+datos3[ind]+")Y-"+datos3[ind]+"("+datos1[ind]+"Y"+datos2[ind]+")]]"+'\n'+'\n'
             test_regla4.append(h)
             ind+=1
-    print("len(test_regla4)= ",len(test_regla4))
+
     for linea in test_regla4:
         archivo.write(linea)
     archivo.close()
     myfile.close()
     myfile2.close()
+    arch=open("Regla_4.txt", "r")
+    x=arch.readlines()
+
+    Regla4="" #AQUÍ SE GUARDA LA REGLA SIN CODIFICAR
+    for prop in x:
+        Regla4+=prop
+    arch.close()
+    return C.CODIFICAR("Regla_4.txt")
 
 
 def REGLA5():
@@ -276,12 +279,6 @@ def REGLA5():
         archivo_def.write(linea)
         archivo_def.write('\n')
     archivo_def.close()
-    print("len(test1)= ",len(test))
-
-
-
-
-
 
 
 
@@ -315,14 +312,6 @@ def REGLA5():
         archivo_def2.write(linea)
         archivo_def2.write('\n')
     archivo_def2.close()
-    print("len(test2)= ",len(test2))
-
-
-
-
-
-
-
 
     archivo3=open("quinto3.txt","w")
     Posiciones3=["Abajo"]
@@ -354,10 +343,6 @@ def REGLA5():
         archivo_def3.write(linea)
         archivo_def3.write('\n')
     archivo_def3.close()
-    print("len(test3)= ",len(test2))
-
-
-
 
 
     #CREADOR DE LA REGLA5
@@ -395,7 +380,6 @@ def REGLA5():
                     h="[[[("+Px+", 2, Abajo, "+turno+")Y("+Px+", 1, Medio, "+turno+")]>"+datos2[ind]+"]Y[[("+Px+", 3, Abajo, "+turno+")Y("+Px+", 2, Medio,"+turno+")Y("+Px+", 1, Arriba, "+turno+")]>["+datos2[ind]+"Y"+datos3[ind]+"]]]Y"
                     test_regla5.append(h)
             ind+=1
-    print("len(test_regla5)= ",len(test_regla5))
 
     ind2=0
     while ind<21:
@@ -415,3 +399,22 @@ def REGLA5():
     archivo.close()
     myfile.close()
     myfile2.close()
+    arch=open("Regla_5.txt","r")
+    x=arch.readlines()
+
+    Regla5="" #AQUÍ SE GUARDA LA REGLA SIN CODIFICAR
+
+    for prop in x:
+        Regla5+=prop
+
+    arch.close()
+    return C.CODIFICAR("Regla_5.txt")
+
+
+def CrearReglas():
+    return "("+REGLA2()+"Y"+REGLA3()+"Y"+REGLA4()+"Y"+REGLA5()+")"
+
+letras=['J', 'ħ', 'ί', 'ζ', 'É', 'j', 'Ắ', 'Ớ', 'Ẁ', 'Ī', 'ř', 'Ķ', 'Ễ', 'ớ', 'э', 'ⁿ', 'Ā', 'ы', 'c', 'ü', 'Ô', 'ł', 'K', 'đ', 'Ó', 'ь', 'Ŀ', 'Ề', 'Ð', 'ó', 'Ч', 'q', 'Ľ', 'Ј', 'ć', 'ý', 'ų', 'С', 'Р', 'o', 'Ę', 'Ҝ', 'у', 'В', 'H', 'Θ', 'í', 'ĉ', 'ν', 'Ң', 'А', 'z', 'ự', 'η', 'Ẵ', 'ẃ', 'ŷ', 'х', 'œ', 'Ä', '฿', 'Ằ', 'Ŏ', 'Ď', 'ј', 'ē', 'Z', 'ử', 'é', 'Ў', 'Ό', 'М', 'Ε', 'ŏ', 'Є', 'н', 'Ђ', 'ŵ', 'қ', 'Ŝ', 'ņ', 'д', 'п', 'Ö', 'Қ', 'Б', 'Ν', 'Ể', 'т', 'Ĺ', 'с', 'Ů', 'Џ', 'Х', 'h', 'Â', 'ї', 'Ò', '£', 'μ', 'Ă', 'Ặ', 'Ѓ', 'Ζ', 'о', 'ã', 'ĩ', 'ằ', 'ọ', 'Ŭ', 'ς', 'Ù', 'ð', 'Ъ', 'ö', 'Ҳ', 'Ç', 'n', 'ο', 'ů', 'è', 'Į', 'Ẃ', 'Μ', 'Á', 'Č', 'ŋ', 'υ', 'β', 'ī', 'Ş', 't', 'ª', 'ž', 'κ', 'ш', 'G', 'Í', 'Ї', '∑', 'ĸ', 'Ќ', 'ђ', 'Ģ']
+
+print ([x for x, y in collections.Counter(letras).items() if y > 1])
+print("O"in letras)
