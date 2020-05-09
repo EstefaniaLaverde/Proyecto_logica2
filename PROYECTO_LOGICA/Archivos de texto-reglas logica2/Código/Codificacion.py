@@ -45,10 +45,10 @@ def crear_lista_letras_largas(): #Las letras "largas" tienen la forma (PA,1,Arri
 
     return lista_letras_largas
 
-lista_letras_largas=crear_lista_letras_largas()
+#lista_letras_largas=crear_lista_letras_largas()
 
 #Esta lista letras contiene la letra correspondiente a cada letra larga, que se unen en un diccionario
-letras=['J', 'ħ', 'ί', 'ζ', 'É', 'j', 'Ắ', 'Ớ', 'Ẁ', 'Ī', 'ř', 'Ķ', 'Ễ', 'ớ', 'э', 'ⁿ', 'Ā', 'ы', 'c', 'ü', 'Ô', 'ł', 'K', 'đ', 'Ó', 'ь', 'Ŀ', 'Ề', 'Ð', 'ó', 'Ч', 'q', 'Ľ', 'Ј', 'ć', 'ý', 'ų', 'С', 'Р', 'o', 'Ę', 'Ҝ', 'у', 'В', 'H', 'Θ', 'í', 'ĉ', 'ν', 'Ң', 'А', 'z', 'ự', 'η', 'Ẵ', 'ẃ', 'ŷ', 'х', 'œ', 'Ä', '฿', 'Ằ', 'Ŏ', 'Ď', 'ј', 'ē', 'Z', 'ử', 'é', 'Ў', 'Ό', 'М', 'Ε', 'ŏ', 'Є', 'н', 'Ђ', 'ŵ', 'қ', 'Ŝ', 'ņ', 'д', 'п', 'Ö', 'Қ', 'Б', 'Ν', 'Ể', 'т', 'Ĺ', 'с', 'Ů', 'Џ', 'Х', 'h', 'Â', 'ї', 'Ò', '£', 'μ', 'Ă', 'Ặ', 'Ѓ', 'Ζ', 'о', 'ã', 'ĩ', 'ằ', 'ọ', 'Ŭ', 'ς', 'Ù', 'ð', 'Ъ', 'ö', 'Ҳ', 'Ç', 'n', 'ο', 'ů', 'è', 'Į', 'Ẃ', 'Μ', 'Á', 'Č', 'ŋ', 'υ', 'β', 'ī', 'Ş', 't', 'ª', 'ž', 'κ', 'ш', 'G', 'Í', 'Ї', '∑', 'ĸ', 'Ќ', 'ђ', 'Ģ']
+#letras=['J', 'ħ', 'ί', 'ζ', 'É', 'j', 'Ắ', 'Ớ', 'Ẁ', 'Ī', 'ř', 'Ķ', 'Ễ', 'ớ', 'э', 'ⁿ', 'Ā', 'ы', 'c', 'ü', 'Ô', 'ł', 'K', 'đ', 'Ó', 'ь', 'Ŀ', 'Ề', 'Ð', 'ó', 'Ч', 'q', 'Ľ', 'Ј', 'ć', 'ý', 'ų', 'С', 'Р', 'o', 'Ę', 'Ҝ', 'у', 'В', 'H', 'Θ', 'í', 'ĉ', 'ν', 'Ң', 'А', 'z', 'ự', 'η', 'Ẵ', 'ẃ', 'ŷ', 'х', 'œ', 'Ä', '฿', 'Ằ', 'Ŏ', 'Ď', 'ј', 'ē', 'Z', 'ử', 'é', 'Ў', 'Ό', 'М', 'Ε', 'ŏ', 'Є', 'н', 'Ђ', 'ŵ', 'қ', 'Ŝ', 'ņ', 'д', 'п', 'Ö', 'Қ', 'Б', 'Ν', 'Ể', 'т', 'Ĺ', 'с', 'Ů', 'Џ', 'Х', 'h', 'Â', 'ї', 'Ò', '£', 'μ', 'Ă', 'Ặ', 'Ѓ', 'Ζ', 'о', 'ã', 'ĩ', 'ằ', 'ọ', 'Ŭ', 'ς', 'Ù', 'ð', 'Ъ', 'ö', 'Ҳ', 'Ç', 'n', 'ο', 'ů', 'è', 'Į', 'Ẃ', 'Μ', 'Á', 'Č', 'ŋ', 'υ', 'β', 'ī', 'Ş', 't', 'ª', 'ž', 'κ', 'ш', 'G', 'Í', 'Ї', '∑', 'ĸ', 'Ќ', 'ђ', 'Ģ']
 
 
 """FUNCIÓN QUE CREA EL DICCIONARIO FINAL CON LAS LETRAS PROPOSICIONALES"""
@@ -64,7 +64,7 @@ def crear_diccionario(lista_prop, lista_letra):
     return dicc_letras
 
 
-Diccionario_final=crear_diccionario(lista_letras_largas, letras) #Aquí guardo el diccionario que voy a usar para cambiar las letras en las reglas
+#Diccionario_final=crear_diccionario(lista_letras_largas, letras) #Aquí guardo el diccionario que voy a usar para cambiar las letras en las reglas
 #print(len(Diccionario_final))
 #print(Diccionario_final)
 
@@ -73,7 +73,8 @@ def print_decod(dicc_final):
     for key in dicc_final:
         print(dicc_final[key], "codifica: ", key)
 
-print_decod(Diccionario_final)
+#print_decod(Diccionario_final)
+
 """FUNCIÓN PARA TRANSFORMAR UNA REGLA CON LAS LETRAS CORTAS"""
 
 def letras_largas_a_cortas(regla, diccionario_traducci):
@@ -153,21 +154,9 @@ def preparar_regla_para_cambiar_letras(archivo_de_texto):
 
 
 #"""Prueba de la función""""
-regla_lista=preparar_regla_para_cambiar_letras("Regla_2_test.txt")
-regla_nuevos_char=letras_largas_a_cortas(regla_lista, Diccionario_final)
+#regla_lista=preparar_regla_para_cambiar_letras("Regla_2_test.txt")
+#regla_nuevos_char=letras_largas_a_cortas(regla_lista, Diccionario_final)
 
-print(regla_nuevos_char)
-
-
-"""FUNCIÓN PARA PASAR LAS REGLAS A UN ÁRBOL"""
-
-class Tree:
-    def __init__(self, label, left, right):
-        self.label=label
-        self.left=left
-        self.right=right
-
-<<<<<<< HEAD:PROYECTO_LOGICA/Archivos de texto-reglas logica2/Código/Codificacion.py
 #print(regla_nuevos_char)
 
 
@@ -179,12 +168,21 @@ class Tree:
         self.left=left
         self.right=right
 
-#def string_to_tree(Regla,letras_prop):
-    #input: string de una regla y lista de letras_prop_cortas
-    #output: Árbol que contiene la regla
-=======
+
+
+"""FUNCIÓN QUE CONTIENE TODAS LAS ANTERIORES SUBRUTINAS"""
+def CODIFICAR(archivo_de_texto):
+  lista_letras_largas=crear_lista_letras_largas()
+  letras=['J', 'ħ', 'ί', 'ζ', 'É', 'j', 'Ắ', 'Ớ', 'Ẁ', 'Ī', 'ř', 'Ķ', 'Ễ', 'ớ', 'э', 'ⁿ', 'Ā', 'ы', 'c', 'ü', 'Ô', 'ł', 'K', 'đ', 'Ó', 'ь', 'Ŀ', 'Ề', 'Ð', 'ó', 'Ч', 'q', 'Ľ', 'Ј', 'ć', 'ý', 'ų', 'С', 'Р', 'o', 'Ę', 'Ҝ', 'у', 'В', 'H', 'Θ', 'í', 'ĉ', 'ν', 'Ң', 'А', 'z', 'ự', 'η', 'Ẵ', 'ẃ', 'ŷ', 'х', 'œ', 'Ä', '฿', 'Ằ', 'Ŏ', 'Ď', 'ј', 'ē', 'Z', 'ử', 'é', 'Ў', 'Ό', 'М', 'Ε', 'ŏ', 'Є', 'н', 'Ђ', 'ŵ', 'қ', 'Ŝ', 'ņ', 'д', 'п', 'Ö', 'Қ', 'Б', 'Ν', 'Ể', 'т', 'Ĺ', 'с', 'Ů', 'Џ', 'Х', 'h', 'Â', 'ї', 'Ò', '£', 'μ', 'Ă', 'Ặ', 'Ѓ', 'Ζ', 'о', 'ã', 'ĩ', 'ằ', 'ọ', 'Ŭ', 'ς', 'Ù', 'ð', 'Ъ', 'ö', 'Ҳ', 'Ç', 'n', 'ο', 'ů', 'è', 'Į', 'Ẃ', 'Μ', 'Á', 'Č', 'ŋ', 'υ', 'β', 'ī', 'Ş', 't', 'ª', 'ž', 'κ', 'ш', 'G', 'Í', 'Ї', '∑', 'ĸ', 'Ќ', 'ђ', 'Ģ']
+
+  Diccionario_final=crear_diccionario(lista_letras_largas,letras)
+
+  #PREPARAR REGLA PARA LA TRANSFORMACIÓN
+  regla_preparada=preparar_regla_para_cambiar_letras(archivo_de_texto)
+  regla_lista=letras_largas_a_cortas(regla_preparada, Diccionario_final)
+  return regla_lista
+
 #def string_to_tree(Regla,letras_prop):
     #input: string de una regla y lista de letras_prop_cortas
     #output: Árbol que contiene la regla
     #unfinished
->>>>>>> 1422b9214cc7a80ce0b9a0160b2f8ff5251d05b1:PROYECTO_LOGICA/Archivos de texto-reglas logica2/Código/Diccionario_letras_del_tree.py
