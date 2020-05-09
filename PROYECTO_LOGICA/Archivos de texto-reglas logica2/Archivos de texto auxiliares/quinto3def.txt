@@ -1,7 +1,0 @@
-[[(PA, 3, Abajo, 1)<>(PA, 3, Abajo, 2)]Y[(PB, 3, Abajo, 1)<>(PB, 3, Abajo, 2)]Y[(PC, 3, Abajo, 1)<>(PC, 3, Abajo, 2)]]
-[[(PA, 3, Abajo, 2)<>(PA, 3, Abajo, 3)]Y[(PB, 3, Abajo, 2)<>(PB, 3, Abajo, 3)]Y[(PC, 3, Abajo, 2)<>(PC, 3, Abajo, 3)]]
-[[(PA, 3, Abajo, 3)<>(PA, 3, Abajo, 4)]Y[(PB, 3, Abajo, 3)<>(PB, 3, Abajo, 4)]Y[(PC, 3, Abajo, 3)<>(PC, 3, Abajo, 4)]]
-[[(PA, 3, Abajo, 4)<>(PA, 3, Abajo, 5)]Y[(PB, 3, Abajo, 4)<>(PB, 3, Abajo, 5)]Y[(PC, 3, Abajo, 4)<>(PC, 3, Abajo, 5)]]
-[[(PA, 3, Abajo, 5)<>(PA, 3, Abajo, 6)]Y[(PB, 3, Abajo, 5)<>(PB, 3, Abajo, 6)]Y[(PC, 3, Abajo, 5)<>(PC, 3, Abajo, 6)]]
-[[(PA, 3, Abajo, 6)<>(PA, 3, Abajo, 7)]Y[(PB, 3, Abajo, 6)<>(PB, 3, Abajo, 7)]Y[(PC, 3, Abajo, 6)<>(PC, 3, Abajo, 7)]]
-[[(PA, 3, Abajo, 7)<>(PA, 3, Abajo, 8)]Y[(PB, 3, Abajo, 7)<>(PB, 3, Abajo, 8)]Y[(PC, 3, Abajo, 7)<>(PC, 3, Abajo, 8)]]
