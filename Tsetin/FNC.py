@@ -38,6 +38,12 @@ def enFNC(A):
         r = A[6]
         # print('r', r)
         B = q+"O"+p+"Y-"+r+"O"+p+"Y-"+q+"O"+r+"O-"+p
+    elif "@" in A:
+        q=A[4]
+
+        r=A[6]
+
+        B=p+"O"+q+"O"+r+"Y"+p+"O-"+q+"O-"+r+"Y"+q+"O-"+p+"O-"+r+"Y"+r+"O-"+p+"O-"+q
     else:
         print(u'Error enENC(): Fórmula incorrecta!')
     #print(B)
@@ -47,7 +53,7 @@ def enFNC(A):
 # Input: A (cadena) en notacion inorder
 # Output: B (cadena), Tseitin
 def Tseitin(A, letrasProposicionalesA):
-    letrasProposicionalesB = [chr(x) for x in range(65, 91)]
+    letrasProposicionalesB = ["A","B","C","D","E","F","G","H","I"]
     assert(not bool(set(letrasProposicionalesA) & set(letrasProposicionalesB))), u"¡Hay letras proposicionales en común!"
 
     #  IMPLEMENTAR AQUI ALGORITMO TSEITIN
@@ -55,6 +61,7 @@ def Tseitin(A, letrasProposicionalesA):
     #===========================|AUTOR: ESTEFANIA LAVERDE|==================================
     L=[]#Inicializamos lista de conjunciones||aquí se guardan todos los <>
     Pila=[]#Inicializamos Pila
+    A=A.replace("<>","@")
     I=-1#Inicializamos contador de variables nuevas
     s=A[0]#Inicializamos símbolo de trabajo
 
@@ -68,20 +75,28 @@ def Tseitin(A, letrasProposicionalesA):
             A=A[1:]
             if len(A)>0:
                 s=A[0]
+            #print("en negacion: ",s)
         elif s==")":#Para las formulas con conectores binarios
             w=Pila[-1]
+            print("w: ",w)
             u=Pila[-2]#El conector binario
+            print("u: ",u)
+            if( u=="Y" or u =="@"):
+                print("Todo normal")
             v=Pila[-3]
+            print("v: ",v)
             Pila=Pila[:len(Pila)-4]
             I+=1
             Atomo=letrasProposicionalesB[I]
             L.append(Atomo+"<>"+"("+v+u+w+")")
             s= Atomo
+
         else:
             Pila.append(s)
             A=A[1:]
             if len(A)>0:
                 s=A[0]
+
     B=""
     if I<0:
         Atomo=Pila[-1]

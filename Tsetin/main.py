@@ -24,14 +24,14 @@ letrasProposicionalesA = ['p', 'q', 'r', 's', 't']
 #8) Cada lista se mete en una lista, la cual va a retornar formaClausal: RESULTADO [[-p],[-x1,-p],[x1,p]]
 #===================================================================================
 #formula="((p>q)>r)"
-#formula="(pY(-qY-r))"
+#formula="((p<>q)Y((q<>r)Y(r<>p)))"
 #formula = "(pYq)"
 #formula = "(pOq)"
 #formula = "(p>q)"
-
+formula = "((Є<>ņ)Y((ª<>ш)Y((ž<>G)Y(κ<>Í))))"
 #formula="(((-pOq)O(p>-q))>-((q>(rY(sO-t)))>-p))"
 
-formula='(((p>(rY(sO-t)))>-q)>-((-pOq)O(p>-q)))'
+#formula='(((p>(rY(sO-t)))>-q)>-((-pOq)O(p>-q)))'
 print("La fórmula que probamos es: ",formula)
 # Aplicando el algoritmo de Tseitin a formula
 # Se obtiene una cada que representa la formula en FNC
