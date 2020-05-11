@@ -34,25 +34,29 @@ def REGLA2(): #No levitación
     vacio_arriba=[]
     for T in Turnos:
         for PX in Palos:
-            W="(-("+PX+","+"1, Medio, "+T+" ))"
+            W="-("+PX+","+"1, Medio, "+T+" )"
             vacio_arriba.append(W)
 
     it=0
     Regla_2_lista=[]
     while it<len(vacio_abajo): #todos tienen la misma longitud, así que no hay ningún problema
         if it==0:
-            prop=""+"("+vacio_abajo[it]+">"+"("+vacio_medio[it]+"Y"+vacio_arriba[it]+"))Y" #OJO
+            x="("*(len(vacio_abajo)-2)
+            prop="("+x+"("+vacio_abajo[it]+">"+"("+vacio_medio[it]+"Y"+vacio_arriba[it]+"))Y" #OJO
+            #prop="("+x+"(p)Y"
             Regla_2_lista.append(prop)
 
         elif it==len(vacio_abajo)-1:
-            prop="("+vacio_abajo[it]+">"+"("+vacio_medio[it]+"Y"+vacio_arriba[it]+"))"+""#OJO
+            prop="("+vacio_abajo[it]+">"+"("+vacio_medio[it]+"Y"+vacio_arriba[it]+"))"+")"#OJO
+            #prop="(q))"
             Regla_2_lista.append(prop)
 
         else:
-            prop="("+vacio_abajo[it]+">"+"("+vacio_medio[it]+"Y"+vacio_arriba[it]+"))Y"
+            prop="("+vacio_abajo[it]+">"+"("+vacio_medio[it]+"Y"+vacio_arriba[it]+")))Y"
+            #prop="(r))Y"
             Regla_2_lista.append(prop)
         it+=1
-
+    #print(len(Regla_2_lista))
     archivo=open("Regla_2.txt","w")
     Regla2="" #AQUÍ SE GUARDA TODA LA REGLA SIN CODIFICAR
     #Pasar toda la regla a un archivo txt
@@ -63,6 +67,7 @@ def REGLA2(): #No levitación
 
     archivo.close()
     retorno=C.CODIFICAR("Regla_2.txt")
+    #print(retorno)
     return retorno
 
 
@@ -78,7 +83,8 @@ def REGLA3(): #No mayor sobre menor
         for PX in Palos:
             W="(("+PX+",1,Abajo,"+T+")<>-("+PX+",2,Medio,"+T+"))Y"
             lista_aux.append(W)
-
+    #for p in lista_aux:
+    #    print(p)
     Regla3="("
     i=0
     for i in range(len(lista_aux)):
@@ -323,23 +329,36 @@ def CrearReglas():
     #Archivo para guardar la regla completa por si se quiere ver
     #archivo=open("Regla_final.txt","w")
 
-    regla_f="("+REGLA2()+"Y"+REGLA3()+"Y"+REGLA4()+"Y"+REGLA5()+")"
+    regla_f="((("+REGLA2()+"Y"+REGLA3()+")Y"+REGLA4()+")Y"+REGLA5()+")"
     #archivo.write(regla_f)
 
     #archivo.close()
     return regla_f
 
-regla=REGLA3()#[:310]
+#regla="("+REGLA3()+"Y"+REGLA5()+")"
+regla=CrearReglas()
 
-#print("La formula usada fue: \n", regla)
+print("La formula usada fue: \n", regla)
 letras_prop= C.ret_letras_usadas()
-#print("#####################################################")
+print("#####################################################")
 ts= F.Tseitin(regla, letras_prop)
-print(len(ts))
-#print("Tseitin: \n",ts)
-#print("=====================================================")
+
+print("Tseitin: \n",ts)
+l=D.conjunto_de_formulas(ts)
+print(l)
+
+"""
+print("=====================================================")
+lts=D.conjunto_de_formulas(ts)
+#print("Lista de clausulas: \n", lts)
+#val,I = D.unitPropagate(lts,{})
+#print(val,I)
+print(D.DPLL(lts,{}))
+"""
+"""
 fClaus = F.formaClausal(ts)
 print("Forma clausal: \n")
 print(fClaus)
 val,I = D.unitPropagate(fClaus,{})
 print(val)
+"""
