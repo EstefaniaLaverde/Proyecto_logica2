@@ -1,5 +1,17 @@
 """FUNCIONES UNITPROPAGATE Y DPLL"""
 
+def conjunto_de_formulas(FNC):
+    #INPUT: Una formula en FNC, p. ejemplo pOqYqOiO-r
+    #OUTPUT: lista con la clausulas, p. ejemplo: [pq,qi-r]
+    l_claus=[]
+    lista=FNC.split("Y")
+    for item in lista:
+        item=item.replace("O","")
+        l_claus.append(item)
+    return l_claus
+
+#print(conjunto_de_formulas("pOqYqOiO-rY-sOz"))
+
 def unitPropagate(S,I):
     #INPUT: S, lista de clausulas e I, dicc de interpretaciones
     #OUTPUT: S, lista de clausulas e I, dicc de interpretaciones (MODIFICADOS)
