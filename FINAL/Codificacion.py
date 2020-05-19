@@ -56,7 +56,16 @@ def Codificacion(s):
 		s=s.replace(rem,l)
 	return s
 
+def traduccion(s):
+	for q in s:
+		if q in letrasProposicionales:
+			rem= Inversa.get(q)
+			s=s.replace(q,rem)
+	return s
+
+
 def Decodificar(Dicc):
+	#Retorna un string de las interpretaciones verdaderas 
 	Sera=[]
 	items = Dicc.items()
 	res=""
@@ -70,9 +79,32 @@ def Decodificar(Dicc):
 			Sera2.append(q)
 		else:
 			pass
+	count=0
 	for k in Sera2:
-		res= res + ","  + Inversa.get(k)
-
+		res= res + Inversa.get(k)+ "," 
+		count+=1
+	print(count)
 	return res
 		
 
+def Decodificar_CEROS(Dicc):
+	#Retorna un string de las interpretaciones verdaderas 
+	Sera=[]
+	items = Dicc.items()
+	res=[]
+	for x in items:
+		if x[1]==0:
+			Sera.append(x[0])
+
+	Sera2=[]
+	for q in Sera:
+		if q in letrasProposicionales:
+			Sera2.append(q)
+		else:
+			pass
+	count=0
+	for k in Sera2:
+		res.append()
+		count+=1
+	print(count)
+	return res

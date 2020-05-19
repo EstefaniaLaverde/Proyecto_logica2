@@ -39,6 +39,12 @@ def enFNC(A):
         r = A[5]
         # print('r', r)
         B = q+"O"+p+"Y-"+r+"O"+p+"Y-"+q+"O"+r+"O-"+p
+    elif "@" in A:
+        q=A[3]
+
+        r=A[5]
+
+        B=p+"O"+q+"O"+r+"Y"+p+"O-"+q+"O-"+r+"Y"+q+"O-"+p+"O-"+r+"Y"+r+"O-"+p+"O-"+q
     else:
         print(u'Error enENC(): Fórmula incorrecta!')
 

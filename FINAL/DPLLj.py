@@ -43,6 +43,7 @@ def unit_propagate(S, I):
     return S, I
 
 def DPLL(S, I):
+    print(len(I))
     S, I = unit_propagate(S, I)
     c_vacia = []
     if c_vacia in S:
